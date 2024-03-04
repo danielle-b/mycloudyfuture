@@ -1,5 +1,5 @@
 ---
-title: "My Cloudy Future"
+title: "Posts"
 listing:
   contents: posts
   sort: "date desc"

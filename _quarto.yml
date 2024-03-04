@@ -17,7 +17,7 @@ website:
 
 format:
   html:
-    theme: litera
+    theme: materia
     css: styles.css
     
     
