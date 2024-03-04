@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: "5ef1dd9c-55c7-4838-bb83-b4a7b6663b73"
+      url: 'https://earnest-llama-599d89.netlify.app'
