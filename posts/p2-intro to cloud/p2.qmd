@@ -1,5 +1,5 @@
 ---
-title: "30 Day Cloud Challenge: Days 1 & 2"
+title: "30 Day Cloud Challenge: Beginner Track - Days 1 & 2"
 author: "Danielle Brantley"
 date: "2024-03-03"
 categories: [news, cloud]
