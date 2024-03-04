@@ -1,0 +1,23 @@
+---
+title: "Projects"
+about:
+  template: jolla
+---
+
+## Python
+
+[Analyzing US Economic Data and Building a Dashboard](https://colab.research.google.com/drive/1NIzbAh1oUgpwUu2Yf3G9v7fFbrqu6FDg?usp=sharing)
+
+In this project, I used Python to analyze US Economic Data including GDP and unemployment.
+
+## R
+
+[Analyzing Forest Fire Data](https://rpubs.com/daniebrant/forest-fires-data)
+
+Using R and the Tidyverse, I analyzed forest fire data. The goal of this project was learning how to use data visualizations for exploratory analysis.
+
+## SQL
+
+[Analyzing CIA Factbook Data](https://github.com/danielle-b/analyzingfactbookCIAdata/blob/master/Analyzing_CIA_Factbook_Data_Using_SQL.ipynb)
+
+Using SQL, I analyzed factbook data. The goals of this project were to learn how to work with data using SQL in Jupyter notebooks and use SQL to generate summary statistics.

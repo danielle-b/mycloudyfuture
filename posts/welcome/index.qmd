@@ -1,12 +1,13 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2024-03-01"
+title: "Welcome!"
+author: "Danielle Brantley"
+date: "2024-03-02"
 categories: [news]
+image: "cloud.jpg"
 ---
 
-This is the first post in a Quarto blog. Welcome!
+“One of the greatest discoveries a man makes, one of his great surprises, is to find he can do what he was afraid he couldn’t do.”— Henry Ford
 
-![](thumbnail.jpg)
+Welcome!
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+I’ve decided to face my fear I've had for many years and enter the world of cloud, DevOps and Infrastructure. My goal is to learn Linux, cloud technologies, networking, programming (I'm learning Java now!) and tools like Docker and more. So here's to learning, growing and eventually securing a job in engineering.

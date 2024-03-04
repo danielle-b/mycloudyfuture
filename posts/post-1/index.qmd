@@ -1,0 +1,31 @@
+---
+title: "30 Day Cloud Challenge: Beginner Track - Days 1 & 2"
+author: "Danielle Brantley"
+date: "2024-03-03"
+categories: [news, cloud]
+image: "thumbnail.jpg"
+---
+
+I'm starting my cloud journey with the 30 Day Cloud Challenge created by the Cozy Cloud Crew. Although I do have some experience with cloud services (Big Query Studio, Data Transfers & Looker by Google and S3 by AWS), I thought doing the beginner level of this challenge would be a great opportunity to gain a better understanding of the basics of cloud.
+
+For Days 1 and 2, we were first asked to set up a free tier account on a cloud platform. I chose AWS because I already created accounts with them for a course I'm taking to study for the Solutions Architect exam.
+
+The second task was to set up a budget. I already have a budget in place but I thought I'd share my process of creating one.
+
+First, from the AWS console, I navigated to the drop-down menu by my account name and selected "Billing and Cost Management".
+
+![](console.png){fig-alt="A photo of the AWS drop-down in console"}
+
+After selecting "Billing and Cost Management" I was taken to the AWS Billing and Cost Management home page shown below and selected "Budgets" as shown in the red.
+
+![](billing-cost.png)
+
+I was then taken to the "Budgets" page where I created my budget and chose my budget type. I used a template and selected the "Zero spend budget" option. As you can see here, it also asks me for my email address so I will be notified when the spend threshold has been exceeded.
+
+![](create%20budget.png){fig-alt="Choose budget type"}
+
+After I created my budget, I was led back to the Budgets page where you can see that I now have a budget.
+
+![](budget.png)
+
+And with that, it's a wrap for Days 1 & 2 of the challenge! I'm excited and looking forward to the next challenge.
