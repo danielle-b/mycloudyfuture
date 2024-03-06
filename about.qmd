@@ -5,6 +5,8 @@ about:
   template: jolla
 ---
 
+Hi! I'm Danielle Brantley!
+
 After years of being a data analyst, I have decided to embark on a transition into cloud engineering. I've been interested in Cloud, DevOps and Infrastructure for some time so I thought I'd go for it! My Cloudy Future is a space where I’ll share my projects, what I’m learning and give you insight into my skills.
 
 In my free time, I’m listening to 90s Hip Hop and R&B, obsessing over podcasts or watching hair and makeup tutorials on YouTube. I’m also trying to keep with the latest trends in media.
