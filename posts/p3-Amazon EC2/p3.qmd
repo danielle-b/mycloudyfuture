@@ -11,7 +11,7 @@ Before diving into EC2 instances, let me first define the terms region and avail
 
 A region is a physical location around the world where data centers are clustered together. An availability zone is a zoned area within a region that houses one or more data centers. This approach was designed to ensure that applications and databases are highly available, fault tolerant, and scalable. 
 
-The photo below, taken from the [Tutorials Dojo website](https://tutorialsdojo.com/aws-global-infrastructure/), is a diagram of region and availability zones.
+The photo below, taken from the [Tutorials Dojo website](https://tutorialsdojo.com/aws-global-infrastructure/){target="_blank"}, is a diagram of region and availability zones.
 
 ![](aws_region.png)
 
@@ -59,11 +59,11 @@ Lastly, Amazon EC2 has a service called Auto Scaling which helps ensure that a u
 
 #### **Additional Resources**: 
 
-[Tiny Technical Tutorials on YouTube](https://www.youtube.com/watch?v=eaicwmnSdCs&list=PLwyXYwu8kL0wg9R_VMeXy0JiK5_c70IrV&index=6)
+[Tiny Technical Tutorials on YouTube](https://www.youtube.com/watch?v=eaicwmnSdCs&list=PLwyXYwu8kL0wg9R_VMeXy0JiK5_c70IrV&index=6){target="_blank"}
 
-[AWS Documentation - Instance purchasing options](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-purchasing-options.html)
+[AWS Documentation - Instance purchasing options](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-purchasing-options.html){target="_blank"}
 
-[Geeks for Geeks - AWS EC2 Instance Types](https://www.geeksforgeeks.org/amazon-ec2-instance-types/)
+[Geeks for Geeks - AWS EC2 Instance Types](https://www.geeksforgeeks.org/amazon-ec2-instance-types/){target="_blank"}
 
 
  
