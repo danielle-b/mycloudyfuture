@@ -1,0 +1,64 @@
+---
+title: "30 Day Cloud Challenge: Days 5-6"
+author: "Danielle Brantley"
+date: "2024-03-05"
+categories: [news, cloud]
+---
+
+For Days 5-6, the tasks for this challenge were the following: 
+
+1. Launch an EC2 instance with the free tier account.
+2. Launch a second EC2 instance in a different availability zone and the same AWS region.
+
+I completed this challenge as part of the AWS Cloud Quest game. Here's how I did it!
+
+The first step was to download a text file called "User Data" that would be used to create our instance. In this case, the file was used to perform common automated configuration tasks.
+
+In the console I searched for, then selected EC2. This took me to the EC2 dashboard where I clicked on "Launch instance."
+
+![](p4-images/console.png)
+
+
+![](p4-images/EC2 Dashboard.png)
+
+The next few photos show me completing the information necessary to launch an instance. I gave the instance a name and chose its AMI (Amazon Image Machine). The AMI provides the information needed to launch an instance and it is a must to specify an AMI when launching an instance.
+
+![](p4-images/launch an instance-1.png)
+
+I selected the instance type and key pair. The instance type chosen determines the hardware of the host computer used for the instance. I suspect because this challenge was completed in Cloud Quest using a demo account, a key pair wasn't necessary here. 
+
+![](p4-images/launch an instance-2.png)
+
+Scrolling down further on the page, there are network settings that needed to be edited. I chose the VPC (Virtual Private Cloud), a subnet located in the **us-east-1a** availability zone, created a security group, provided its description and selected the type under "Inbound Security Group Rules."
+
+![](p4-images/launch an instance-3.png)
+
+I configured the storage, uploaded the text file I mentioned previously under Advanced details > User data (not shown here) and viewed the summary. I clicked on "Launch instance" to create my instance.
+
+
+![](p4-images/launch an instance-4.png)
+![](p4-images/launch an instance-5.png)
+
+There was a green bar at the top of the next page letting me know that the launch was successful. At the bottom of that page, I clicked on "View instances" where I am led to a page where I can see my instance.
+
+![](p4-images/view instance.png)
+
+I copied the link to the Public IPv4 DNS to view my instance in a new tab shown below.
+
+![](p4-images/instance running-1.png)
+
+With the first instance created, I went ahead and launched a second EC2 instance. This time the instance had to have a different availability zone and the same AWS region. I followed the same steps with a few exceptions. The subnet I was chose this time is located in the **us-east-1b** availability zone instead of us-east-1a. Also, instead of creating a new security group, I chose the security group I created previously.
+
+![](p4-images/new instance-1.png)
+
+After following all the steps, I now had two instances running successfully!
+
+![](p4-images/view instances-2.png)
+
+![](p4-images/instance running-2.png)
+
+Amazon EC2 is one of the foundational cloud services in AWS and I'm glad that I now know more about its capabilities. 
+
+
+
+
