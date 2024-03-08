@@ -57,8 +57,7 @@ After following all the steps, I now had two instances running successfully!
 
 ![](p4-images/instance running-2.png)
 
-Amazon EC2 is one of the foundational cloud services in AWS and I'm glad that I now know more about its capabilities. 
-
+Amazon EC2 is one of the foundational cloud services in AWS and I'm glad I got a chance to explore it own my own with this challenge.
 
 
 

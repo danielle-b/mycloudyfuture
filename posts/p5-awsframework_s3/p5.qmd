@@ -1,0 +1,54 @@
+---
+title: "30 Day Cloud Challenge: Days 7-8"
+author: "Danielle Brantley"
+date: "2024-03-07"
+categories: [news, cloud]
+---
+
+For Days 7-8 of the challenge, I was given the following prompt: 
+
+*Learn about the AWS Well Architected Framework and an overview of what an S3 bucket is. Why do we use one? What can we store in there?*
+
+I'll start off with explaining the AWS Well Architected Framework. 
+
+Solid architecture is a key foundation for building a successful business. The **AWS Well Architected Framework** helps users understand the pros and cons of decisions made while building cloud architectures and systems on the AWS platform. The framework is a guide to creating top-notch cloud architectures on AWS. Consisting of six pillars, it ensures security, reliability, efficiency, affordability, and sustainability for your workloads.
+
+[AWS documentation](https://docs.aws.amazon.com/wellarchitected/latest/framework/definitions.html){target="_blank"} defines the pillars as the following:
+
+* **Operational Excellence**
+  + The ability to support development and run workloads effectively, gain insight into their operations, and to continuously improve supporting processes and procedures to deliver business value. Some of its designs principles include performing operations as code, making frequent, small, reversible changes and anticipating failure.
+
+
+* **Security**
+  + The security pillar describes how to take advantage of cloud technologies to protect data, systems, and assets in a way that can improve your security posture. Its design principles include implementing a strong identity foundation, applying security at every layer and automating security best practices.
+
+
+* **Reliability**
+  + The reliability pillar encompasses the ability of a workload to perform its intended function correctly and consistently when it’s expected to. This includes the ability to operate and test the workload through its total lifecycle. Design principles for this pillar include scaling horizontally to increase workload availability, implementing test recovery procedures and managing change in automation.
+
+
+* **Performance Efficiency**
+  + The ability to use computing resources efficiently to meet system requirements, and to maintain that efficiency as demand changes and technologies evolve. Some of the design principles here include using serverless architectures, going global in minutes and experimenting more often.
+
+
+* **Cost Optimization**
+  + The ability to run systems to deliver business value at the lowest price point.Implementing cloud financial management, adopting a consumption model and measuring overall efficiency are just some of the design principles of this pillar. 
+
+
+* **Sustainability**
+  + The ability to continually improve sustainability impacts by reducing energy consumption and increasing efficiency across all components of a workload by maximizing the benefits from the provisioned resources and minimizing the total resources required. A few of the design principles here are establishing sustainability goals, maximizing utilization and using managed services. 
+  
+  
+Now want to get into S3!
+
+[**Amazon S3 (Simple Storage Service**)](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html){target="_blank"} is an object storage service that offers scalability, data availability, performance and security. This service is designed for storing and retrieving any amount of data at any time, from anywhere on the internet. It stores data as objects within buckets. A object is a file and any metadata that describes the file. A bucket is a container for objects. All types of files can be stored in S3 such as text files, videos, and even entire databases. Some of the use cases of S3 include websites, IoT devices, and data analytics. 
+
+As I mentioned in a previous post, I have experience using Amazon S3. At a previous company our social media analytics vendor would house our data in an S3 bucket. From there, I would create a table in Big Query to store our data and use Google's data transfers service to transfer our data into the newly created Big Query table. I even tried hosting a static website in S3! 
+
+In the next few days, I will spend more time becoming familiar with S3 and its capabilities. 
+
+
+
+
+
+
