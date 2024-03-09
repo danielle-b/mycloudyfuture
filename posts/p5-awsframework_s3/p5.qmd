@@ -15,31 +15,41 @@ Solid architecture is a key foundation for building a successful business. The *
 
 [AWS documentation](https://docs.aws.amazon.com/wellarchitected/latest/framework/definitions.html){target="_blank"} defines the pillars as the following:
 
+1. Operational Excellence
+2. Security
+3. Reliability
+4. Performance Efficiency
+5. Cost Optimization
+6. Sustainability
+
+Let me break this down further.
+
 * **Operational Excellence**
-  + The ability to support development and run workloads effectively, gain insight into their operations, and to continuously improve supporting processes and procedures to deliver business value. Some of its designs principles include performing operations as code, making frequent, small, reversible changes and anticipating failure.
+  + The operational excellence pillar includes the ability to ensure smooth development and execution of workloads, provide insights into their performance, and foster continuous improvement for better business results. Some of its designs principles include performing operations as code, making frequent, small, reversible changes and anticipating failure.
 
 
 * **Security**
-  + The security pillar describes how to take advantage of cloud technologies to protect data, systems, and assets in a way that can improve your security posture. Its design principles include implementing a strong identity foundation, applying security at every layer and automating security best practices.
+  + The security pillar explains how cloud services can help you secure your information, programs, and important files, making your entire system more secure. Its design principles include implementing a strong identity foundation, applying security at every layer and automating security best practices.
 
 
 * **Reliability**
-  + The reliability pillar encompasses the ability of a workload to perform its intended function correctly and consistently when it’s expected to. This includes the ability to operate and test the workload through its total lifecycle. Design principles for this pillar include scaling horizontally to increase workload availability, implementing test recovery procedures and managing change in automation.
+  + In essence, the reliability pillar ensures a workload consistently performs its intended function as expected throughout its lifecycle. This encompasses both operating and testing the workload effectively. Design principles for this pillar include scaling horizontally to increase workload availability, implementing test recovery procedures and managing change in automation.
 
 
 * **Performance Efficiency**
-  + The ability to use computing resources efficiently to meet system requirements, and to maintain that efficiency as demand changes and technologies evolve. Some of the design principles here include using serverless architectures, going global in minutes and experimenting more often.
+  + Performance efficiency is about optimizing how you use computing resources to meet current needs, while being flexible to adapt to future demands and advancements. Some of the design principles here include using serverless architectures, going global in minutes and experimenting more often.
 
 
 * **Cost Optimization**
-  + The ability to run systems to deliver business value at the lowest price point.Implementing cloud financial management, adopting a consumption model and measuring overall efficiency are just some of the design principles of this pillar. 
+  + The ability to run systems to deliver business value at the lowest price point. Implementing cloud financial management, adopting a consumption model and measuring overall efficiency are just some of the design principles of this pillar. 
 
 
 * **Sustainability**
-  + The ability to continually improve sustainability impacts by reducing energy consumption and increasing efficiency across all components of a workload by maximizing the benefits from the provisioned resources and minimizing the total resources required. A few of the design principles here are establishing sustainability goals, maximizing utilization and using managed services. 
+  + The sustainability pillar includes the ability to continuously improve the environmental impact of workloads by minimizing resource usage and maximizing efficiency. A few of the design principles here are establishing sustainability goals, maximizing utilization and using managed services. 
   
+All in all, the framework provides a way to measure your architectures against best practices and make improvements as needed. 
   
-Now want to get into S3!
+Now let's get into the second part of the prompt. What is S3?
 
 [**Amazon S3 (Simple Storage Service**)](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html){target="_blank"} is an object storage service that offers scalability, data availability, performance and security. This service is designed for storing and retrieving any amount of data at any time, from anywhere on the internet. It stores data as objects within buckets. A object is a file and any metadata that describes the file. A bucket is a container for objects. All types of files can be stored in S3 such as text files, videos, and even entire databases. Some of the use cases of S3 include websites, IoT devices, and data analytics. 
 
