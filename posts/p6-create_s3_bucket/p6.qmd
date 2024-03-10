@@ -19,7 +19,7 @@ I was taken to the Amazon S3 page where I clicked on "Create bucket".
 
 ![](images/amazon_s3_page.png)
 
-Following this [demo](https://www.youtube.com/watch?v=FZCZbPEMlXk) from AWS, I selected the region us-east-1 and named my bucket. A bucket name must be globally unique or the name will be rejected. It's also best practice to choose a region that is closest to where users who are accessing the objects are located. In the object ownership bucket, it is recommended that the "**ACLs disabled**" default option is selected because it ensures that the bucket owner automatically owns and fully controls every single object in the bucket.
+Following this [demo](https://www.youtube.com/watch?v=FZCZbPEMlXk){target="_blank"} from AWS, I selected the region us-east-1 and named my bucket. A bucket name must be globally unique or the name will be rejected. It's also best practice to choose a region that is closest to where users who are accessing the objects are located. In the object ownership bucket, it is recommended that the "**ACLs disabled**" default option is selected because it ensures that the bucket owner automatically owns and fully controls every single object in the bucket.
 
 ![](images/bucket_name.png)
 
