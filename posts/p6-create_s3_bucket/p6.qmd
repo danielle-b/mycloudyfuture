@@ -77,6 +77,10 @@ After navigating back to the my bucket page, I began deleting all but one of my 
 
 I was then taken to a page where I was informed that my deletion of the photos had been successful. After closing that page. I was led back to my bucket page where as you can see I now have only one photo in my bucket.
 
+An important note about buckets is that to delete a bucket, the bucket must be empty. I would have to delete the file in my bucket before deleting the entire bucket.
+
 ![](images/successful_deletion.png)
+
+And with that, days 9-10 of the challenge are complete!
 
 I felt really good about this prompt! I learned a lot more about S3 than I had initially anticipated. Look out for more S3 content as I continue this challenge!
