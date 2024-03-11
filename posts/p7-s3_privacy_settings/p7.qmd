@@ -67,7 +67,7 @@ Over the past few years, there have been stories of data breaches and malicious 
 
 - Earlier the same year, a mismanaged S3 bucket resulted in [sensitive airport data](https://www.darkreading.com/application-security/cloud-misconfig-exposes-3tb-sensitive-airport-data-amazon-s3-bucket){target="_blank"} being exposed.
 
-- Also in the same year, a former AWS engineer was convicted after she [stole customer data](https://techmonitor.ai/technology/cybersecurity/capital-one-hack-aws-paige-thompson){target="_blank"} from an unsecured S3 bucket. This breach affected 30 institutions including Capital One, costing the company over $270 million dollars.    
+- Also in the same year, a former AWS engineer was convicted after [stealing customer data](https://techmonitor.ai/technology/cybersecurity/capital-one-hack-aws-paige-thompson){target="_blank"} from an unsecured S3 bucket. This breach affected 30 institutions including Capital One, costing the company over $270 million dollars.    
 
 - In July 2023, it was reported that cyber criminals used [expired S3 buckets](https://www.theregister.com/2023/06/19/npm_s3_buckets_malware/){target="_blank"} to place malware into a package in the npm repository.
 
