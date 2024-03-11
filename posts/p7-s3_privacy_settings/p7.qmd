@@ -32,7 +32,7 @@ Amazon provides a number of security features to consider when creating a S3 buc
 
 -   Object lock protects files from being overwritten or deleted.
 
-According to the [AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/security-best-practices.html){target="_blank"},there are several more ways to ensure that an S3 bucket remains private. Here are just some of security best practices for S3:
+According to the [AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/security-best-practices.html){target="_blank"}, there are several more ways to ensure that an S3 bucket remains private. Here are just some of the best practices for securing an S3 bucket:
 
 -   Implementing least privilege access
 
