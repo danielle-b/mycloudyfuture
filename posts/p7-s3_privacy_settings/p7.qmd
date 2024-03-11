@@ -9,18 +9,18 @@ For Day 11, here was the following prompt:
 
 *Privacy settings of S3 buckets - see whether your files are public versus private! If they are public, make sure they are privatized. Can you think of any risks here if your information was public? How do we make your S3 bucket private?*
 
-To check whether the files in my S3 bucket are public or private. I navigated to my bucket, opened my bucket and clicked on the name of the file to see its details. The only way I could view my object was selecting "Open" to view my object in another tab.
+To check whether the files in my S3 bucket are public or private, I navigated to my bucket, opened my bucket and clicked on the name of the file to see its details. The only way I could view my object was selecting "Open" to view my object in another tab.
 
-However, I cannot access my object using the Object URL shown below because I disabled public access to my bucket.
+However, I couldn't access my object using the Object URL shown below because I disabled public access to my bucket.
 
 ![](images/inside_my_object.png)
 
-When I do click the Object URL, I am led to this message:
+When I clicked the Object URL, I am led to this message:
 
 
 ![](images/error.png)
 
-This error lets me know that my files are private!
+This error confirmed that my file is private!
 
 Amazon provides a number of security features to consider when creating a S3 bucket. As shown in my [previous post](https://mycloudyfuture.com/posts/p6-create_s3_bucket/p6){target="_blank"}, some of these security features are provided by default.
 
@@ -56,10 +56,10 @@ According to the [AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest
 
 -   Enforce encryption of data in transit
 
-    - This allows for the use of HTTPS to assist in preventing eavesdropping on or manipulating network traffic by using person-in-the-middle or similar attacks.
+    - This allows for the use of HTTPS to assist in preventing eavesdropping on or manipulating network traffic.
     
 
-Amazon takes security very seriously. There are many risks involved by having an S3 bucket exposed for all the world to see. Poorly managed and misconfigured buckets can result in data breaches, uploading of malicious files, removal of files and the integrity of files being compromised. In addition, it can cost a company million of dollars. 
+There are many risks involved by having an S3 bucket exposed for all the world to see. Poorly managed and misconfigured buckets can result in data breaches, uploading of malicious files, removal of files and the integrity of files being compromised. In addition, it can cost a company million of dollars. 
 
 Over the past few years, there have been stories of data breaches and malicious attacks due to S3 buckets being poorly managed and not configured properly. 
 
@@ -73,6 +73,6 @@ Over the past few years, there have been stories of data breaches and malicious 
 
 As you can see, it is imperative that security be top of mind when creating S3 buckets. There are serious consequences for not securing data properly. 
 
-I was so glad to see that Amazon has many measures put in place to protect S3 buckets. I learned a lot security doing this challenge. I'll again explore more of S3 in a future challenge. 
+I have to admit I was a bit overwhelmed seeing the all of the precautions Amazon has put in place to protect S3 buckets. I learned a lot about security doing this challenge. I'll again explore more of S3 in a future challenge. 
 
 
