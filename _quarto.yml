@@ -19,7 +19,7 @@ website:
 
 format:
   html:
-    theme: yeti
+    theme: journal
     css: styles.css
     
     

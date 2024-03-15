@@ -1,0 +1,48 @@
+---
+title: "30 Day Cloud Challenge: Days 12-15"
+author: "Danielle Brantley"
+date: "2024-03-15"
+categories: [news, cloud]
+---
+
+For Days 12-15, here was the following prompt:
+
+*Create an HTML file to your S3 Bucket, Configure the bucket for static website hosting. Feel free to be as creative as you want with your HTML website. It can have a few words or be very creative depending on your skill level/want to make it pretty! What is a static website? Is this public or private?*
+
+A static website is a website whose contents are fixed and do not change automatically. This blog is an example of a static website.
+
+As mentioned in a previous post, I tried in the past to host a static website. So, I am using this challenge to try it again and successfully host the site in an S3 bucket with some assistance from this \[video\](<https://www.youtube.com/watch?v=sCQwEVhCvTg>){target="\_blank"}.
+
+I decided that I would use the site to host my Linux notes. After building the index.html file, I would create my S3 bucket. The process is the same as before with one major exception. I turned off the "Block all public access" option. I saved the changes and was led this page showing me that my bucket was successfully created.
+
+![](images/create_s3bucket.png)
+
+I uploaded the index.html file along with an images folder that has my photo. After uploading my files, I led to the status page informing me that my upload was successful.
+
+![](images/upload_files.png)
+
+After closing this page, I went ahead to the buckets page and selected "Properties". At the end of the Properties page, there is a section called "Static website hosting". By default, static website is disabled so I had to enable it by editing this field.
+
+![](images/static_hosting.png)
+
+![](images/edit_static_hosting.png)
+
+After editing the static website hosting and saving my changes. I headed over to the "Permissions tab" to attach a bucket policy. A bucket policy will make my content publicly available. The template for the bucket policy can be found in the [S3 User Guide](https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html#step5-upload-index-doc){target="_blank"}. I made sure to replace the placeholder "Bucket-name" with the name of my bucket.
+
+![](images/properties.png)
+
+![](images/bucket_policy.png)
+
+After successfully adding the bucket policy, I went back to the objects tab, selected the index.html file to open it. I could also use the Object URL to access the site like I showed previously.
+
+![](images/html_page.png)
+
+This is what my static website looks like.
+
+![](images/brantley_static_site-1.png) ![](images/brantley_static_site-2.png)
+
+So, is this site public or private? It is a public website because we turned off the block public access option and enabled a bucket policy that allows that site to be publicly accessible. This means that anyone can access and view the contents of my site. So it is crucial to put security measures in place to minimize risks.
+
+I am very excited to have successfully host a site using S3. In the future, I would like to create a portfolio site using S3 and connect it to a custom domain.
+
+This past few days with S3 has been a great learning experience. But now I'm off to learn about databases!
