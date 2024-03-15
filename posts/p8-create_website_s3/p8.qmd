@@ -11,7 +11,7 @@ For Days 12-15, here was the following prompt:
 
 A static website is a website whose contents are fixed and do not change automatically. This blog is an example of a static website.
 
-As mentioned in a previous post, I tried in the past to host a static website. So, I am using this challenge to try it again and successfully host the site in an S3 bucket with some assistance from this \[video\](<https://www.youtube.com/watch?v=sCQwEVhCvTg>){target="\_blank"}.
+As mentioned in a previous post, I tried in the past to host a static website. So, I am using this challenge to try it again and successfully host the site in an S3 bucket with some assistance from this [video](https://www.youtube.com/watch?v=sCQwEVhCvTg){target="_blank"}.
 
 I decided that I would use the site to host my Linux notes. After building the index.html file, I would create my S3 bucket. The process is the same as before with one major exception. I turned off the "Block all public access" option. I saved the changes and was led this page showing me that my bucket was successfully created.
 
