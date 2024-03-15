@@ -3,6 +3,7 @@ title: "Projects"
 about:
   template: jolla
 ---
+This page is under construction!
 
 ## Python
 
