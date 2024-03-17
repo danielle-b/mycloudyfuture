@@ -2,7 +2,7 @@
 title: "30 Day Cloud Challenge: Days 9-10"
 author: "Danielle Brantley"
 date: "2024-03-10"
-categories: [news, cloud]
+categories: [aws]
 ---
 
 The prompt for days 9-10 of the cloud challenge was the following:

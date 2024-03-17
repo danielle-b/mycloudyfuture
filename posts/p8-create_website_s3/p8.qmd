@@ -2,7 +2,7 @@
 title: "30 Day Cloud Challenge: Days 12-15"
 author: "Danielle Brantley"
 date: "2024-03-15"
-categories: [news, cloud]
+categories: [aws]
 ---
 
 For Days 12-15, here was the following prompt:

@@ -2,7 +2,7 @@
 title: "30 Day Cloud Challenge: Day 11"
 author: "Danielle Brantley"
 date: "2024-03-11"
-categories: [news, cloud]
+categories: [aws]
 ---
 
 For Day 11, here was the following prompt:

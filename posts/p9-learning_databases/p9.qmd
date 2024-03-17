@@ -1,0 +1,42 @@
+---
+title: "30 Day Cloud Challenge: Days 16-17"
+author: "Danielle Brantley"
+date: "2024-03-17"
+categories: [aws]
+---
+
+For Days 16-17 of the challenge: here's the prompt:
+
+*Databases! What is RDS? What is a noSQL Database? What are the use cases for both? What is High Availability? Why do you think that it is important to have High Availability with databases?*
+
+I want to break down each question.
+
+**What is RDS?**
+
+-   A relational database is a type of database that organizes data into rows and columns, which form a table where the data points are related to each other. Amazon RDS (Relational Database Service) is an AWS service that makes it easy to set up, operate and scale a relational database in AWS cloud. This service allows users to run various database engines such as MySQL and PostgreSQL.
+
+**What is a noSQL database?**
+
+-   A noSQL database is a term used to describe a non-relational database. It is designed to handle and store large, unstructured or frequently changing data. The benefits of a noSQL database include flexible schemas, scalability, and performance. NoSQL databases typically fall into one of four categories:
+    -   Document databases: Stores data as semi-structured documents like JSON.
+    -   Key-Value stores: Stores data as key-value pairs.
+    -   Column-family stores: Stores data as column families, which are sets of columns that are treated as a single entity.
+    -   Graph databases: Stores data in the form of nodes and edges. Nodes typically store information about people, places, and things, while edges store information about the relationships between the nodes.
+
+**What are the use cases for both?**
+
+-   A noSQL database can be used for a social media platform that deals with vast amounts of unstructured data like posts, comments, and user profiles. It can also be great for e-commerce websites which manage large product catalogs, customer profiles and transaction histories. IoT devices generate a high volume of sensor data that can easily be managed by a noSQL database.
+
+-   A SQL database can be used in web development; many web applications use a SQL database on the back end to store user data, website content and application settings. SQL is used in data analytics to extract and manipulate data from databases for further analysis. This data can then be used to identify trends, generate reports, and support data-driven decision making. SQL is also used in financial management and healthcare to store sensitive and critical information.
+
+**What is High Availability?**
+
+-   High availability is the ability of a system to operate continuously with minimal downtime, even when important components of the system experience failure.
+
+**Why do you think that it is important to have High Availability with databases?**
+
+-   High availability is important for databases because it ensures that databases are accessible and operational for users almost all the time. This is especially important for businesses that rely on databases for their core operations. As mentioned, high availability minimizes downtime. However, it also enhances reliability and resilience of a system, improves user experience and eliminates single points of failure. This ensures that businesses can continue with their essential functions without disruption. Using a database without a plan for high availability can cost time and money. The [FAA outage](https://www.nbcnews.com/news/us-news/live-blog/faa-computer-outage-live-updates-flights-us-affected-rcna65248){target="_blank"} that took place last year highlights how imperative it is for businesses and organizations to ensure availability and recovery of its databases.
+
+Although I am very familiar with the concepts SQL and NoSQL, high availability was unfamiliar to me until I started these challenges!
+
+I'm looking forward to creating my own database in AWS for the next challenge!

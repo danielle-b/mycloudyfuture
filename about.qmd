@@ -5,9 +5,11 @@ about:
   template: jolla
 ---
 
-Hi! I'm Danielle Brantley!
+“One of the greatest discoveries a man makes, one of his great surprises, is to find he can do what he was afraid he couldn’t do.”— Henry Ford
 
-After years of being a data analyst, I have decided to embark on a transition into cloud engineering. I've been interested in Cloud, DevOps and Infrastructure for some time so I thought I'd go for it! My Cloudy Future is a space where I’ll share my projects, what I’m learning and give you insight into my skills.
+Welcome! I'm Danielle Brantley!
+
+After years of being a data analyst, I’ve decided to face my fear that I've had for many years and enter the world of cloud, DevOps and Infrastructure. My goals are to learn Linux, cloud technologies, networking, programming (I'm learning Java now!),tools like Docker and more. My Cloudy Future is a space where I’ll share my projects, what I’m learning and give you insight into my skills. So here's to learning, growing and eventually securing a job in engineering.
 
 In my free time, I’m listening to 90s Hip Hop and R&B, obsessing over podcasts or watching hair and makeup tutorials on YouTube. I’m also trying to keep with the latest trends in media.
 

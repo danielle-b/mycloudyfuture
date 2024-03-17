@@ -2,7 +2,7 @@
 title: "30 Day Cloud Challenge: Days 3-4"
 author: "Danielle Brantley"
 date: "2024-03-05"
-categories: [news, cloud]
+categories: [aws]
 ---
 
 For days 3-4 of the Cloud Challenge, we were asked to learn about Amazon EC2 instances. Topics we were expected to learn include: the types of EC2 instances, their pricing options, and their use cases. We were also asked to learn about regions and availability zones. 

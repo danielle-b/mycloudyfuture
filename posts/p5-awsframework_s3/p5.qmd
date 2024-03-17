@@ -2,7 +2,7 @@
 title: "30 Day Cloud Challenge: Days 7-8"
 author: "Danielle Brantley"
 date: "2024-03-08"
-categories: [news, cloud]
+categories: [aws]
 ---
 
 For Days 7-8 of the challenge, I was given the following prompt: 

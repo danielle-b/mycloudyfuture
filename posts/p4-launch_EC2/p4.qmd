@@ -2,7 +2,7 @@
 title: "30 Day Cloud Challenge: Days 5-6"
 author: "Danielle Brantley"
 date: "2024-03-06"
-categories: [news, cloud]
+categories: [aws]
 ---
 
 For Days 5-6, the tasks for this challenge were the following: 

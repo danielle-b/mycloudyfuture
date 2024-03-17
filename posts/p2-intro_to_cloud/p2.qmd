@@ -2,7 +2,7 @@
 title: "30 Day Cloud Challenge: Days 1-2"
 author: "Danielle Brantley"
 date: "2024-03-04"
-categories: [news, cloud]
+categories: [aws]
 image: "thumbnail.jpg"
 ---
 
