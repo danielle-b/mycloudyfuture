@@ -69,7 +69,7 @@ After about a minute or two, the database was modified for public access.
 
 I went back to MySQL Workbench and tried to test the connection again. However, I still got the same error. The i9 Cloud Trainings video showed the creator editing the inbound rules of a security group.
 
-I went back to my database page scrolled down to "Security group rules" and selected the security group with the "EC2 Security Group - Inbound" type. I clicked into the security group to edit the Inbound Rules. I deleted the default rule and added my own, selecting the type and source. After that, I clicked on "Save rules". Because I was not sure what I was doing at this step I did not want to show it here.
+I went back to my database page scrolled down to "Security group rules" and selected the security group with the "EC2 Security Group - Inbound" type. I clicked into the security group to edit the Inbound Rules. I deleted the default rule and added my own, selecting the type and source. After that, I clicked on "Save rules".
 
 I went back to MySQL Workbench to test the connection once again. And to my surprise and excitement, it worked!
 
@@ -92,7 +92,5 @@ After finishing the data import wizard, I did a test query to see if all the dat
 Just for fun, I created another query, this time to see all the employees who identified as female.
 
 ![](images/test2.png)
-
-![]()
 
 It was quite the journey setting this all up, but it was so worth it! I'm moving on from databases for now and stepping into IAM and security for the next few days.
