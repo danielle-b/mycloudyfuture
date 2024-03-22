@@ -6,7 +6,7 @@ categories: [aws]
 
 ---
 
-For Days 21-23: here was the prompt:
+For Days 21-23, here was the prompt:
 
 *IAM and core security concepts! What is IAM? Why do you think we need this feature? What are the terms least privilege and zero trust? Why might a cloud engineer only give someone read-only access to a document?*
 
