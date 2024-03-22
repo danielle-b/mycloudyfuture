@@ -1,0 +1,39 @@
+---
+title: "30 Day Cloud Challenge: Days 21-23"
+author: "Danielle Brantley"
+date: "2024-03-22"
+categories: [aws]
+
+---
+
+For Days 21-23: here was the prompt:
+
+*IAM and core security concepts! What is IAM? Why do you think we need this feature? What are the terms least privilege and zero trust? Why might a cloud engineer only give someone read-only access to a document?*
+
+I spent some time going through the [AWS documentation](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html){target="_blank"} and this [video](https://www.youtube.com/watch?v=iF9fs8Rw4Uo&list=PLwyXYwu8kL0wg9R_VMeXy0JiK5_c70IrV&index=6){target="_blank"} to become familiar with the concepts of IAM.
+
+What is IAM?
+
+-   IAM stands for Identity and Access Management. It is a service used to help users securely control access to AWS resources. IAM provides a central place where users can control which AWS resources someone has access to. Users control who is authenticated and authorized to use resources.
+
+-   IAM uses identities to define who or what can access AWS resources. An IAM user is an identity within an AWS account that has specific permissions for a single person. An IAM Group specifies a collection of IAM users and is used to specify permissions to multiple users at a time. An IAM role can be assumed by anyone and is designed so that a set of permissions can be easily delegated to users. Roles are temporary and provide temporary security credentials. A IAM policy defines the specific actions an identity can perform on AWS resources.
+
+Why do you think we need this feature?
+
+-   When an AWS account is initially created, there is one set of sign-in credentials (username/password) that has complete access to all AWS services and resources in the account. This initial account is known as the root account. It is not good practice to use the root account for daily tasks. This is because as mentioned this account has full access to all resources and if compromised in any way, presents a huge problem. Instead, it is best practice to create an IAM account that has the least amount of permissions that are needed to complete day-to-day tasks. IAM works like a security system for an AWS account, helping to prevent unauthorized access to AWS resources by ensuring that only those authorized can access these resources.
+
+What are the terms least privilege and zero trust?
+
+-   Least privilege is a fundamental security principle in IAM. It means granting users only the minimum permissions needed to perform their tasks. It minimizes the potential impact of compromised credentials. An example of this would be creating a policy that allows a user to only read objects from a specific folder within an S3 bucket instead of granting them full access to the bucket.
+
+-   Zero trust at AWS operates under the principle of "Never trust, always verify." The idea is that access to AWS resources should not be solely based on network location. This means that every user and device attempting to access AWS resources needs to be continuously authenticated and authorized regardless of their network location. Some of the [principles of Zero Trust](https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-zero-trust-architecture/zero-trust-principles.html){target="_blank"} include least privilege access, verify and authenticate including implementing multi-factor authentication, micro-segmentation, a strategy that divides a network into smaller, isolated segments for authorizing specific traffic flows and the use of monitoring and analytics tools to analyze user behavior, network traffic and system activities. 
+
+Why might a cloud engineer only give someone read-only access to a document?
+
+-  There are several reasons why a cloud engineer would give someone read-only access to a document. First, the principle of least privilege. A user should only have the permissions necessary to their job. Data confidentiality is imperative, protecting confidential information from unauthorized changes. Read-only access also ensure a single source of truth for a document. It also allows for review and feedback without the risk of changes before final approval.
+
+
+IAM was one of the AWS services I knew the least about and it was cool to gain a better understanding of how the service works. I'm looking forward to doing a deeper dive and creating IAM users in the next challenge!
+
+
+
