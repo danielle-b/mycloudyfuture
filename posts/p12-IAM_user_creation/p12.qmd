@@ -13,6 +13,8 @@ Using this [video](https://www.youtube.com/watch?v=iF9fs8Rw4Uo&list=PLwyXYwu8kL0
 
 First, I navigated to the console to search for IAM. I clicked on IAM and clicked "Users" on the menu located to the left on the IAM page. I then hit "Create User" and began to create my user named Brenda Johnson, who is a developer.
 
+![](images/aws_console.png)
+
 ![](images/create_iam_user.png)
 
 After hitting "Next", I was led to the "Set permissions" page. Out of the permissions options listed, I decided to create a group called "Developers". It is considered best practice to create a group, attach the policy to the group, then add the user to the group. This group was given full access to S3, DynamoDB and Lambda via the Permissions policies.
