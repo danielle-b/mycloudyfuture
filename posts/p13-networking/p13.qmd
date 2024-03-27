@@ -3,7 +3,6 @@ title: "30 Day Cloud Challenge: Days 26-27"
 author: "Danielle Brantley"
 date: "2024-03-27"
 categories: [aws]
-draft: true
 ---
 
 For Days 26-27, the following prompt was:
