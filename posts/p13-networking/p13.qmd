@@ -23,6 +23,6 @@ What is peering? What is peering used for?
 
 What is a VPC used for?
 
--   A VPC(Virtual Private Cloud) is an isolated environment within a public cloud. It isolates your cloud resources from other users' resources in the public cloud, keeping data and applications secure. You have control over how your VPC is configured including IP address range and network routes. Additionally, you can scale your VPC up and down as needed.
+-   A VPC(Virtual Private Cloud) is an isolated environment within a public cloud. It isolates your cloud resources from other users' resources in the public cloud, keeping data and applications secure. You have control over how your VPC is configured including IP address range and network routes. Additionally, you can scale your VPC up and down as needed. A VPC can perform tasks typically found in traditional private clouds like data storage and website hosting.
 
 I've had been wanting to learn more about networking so I'm glad this was one of the prompts for the challenge. I plan on learning much more about networking in the future.
