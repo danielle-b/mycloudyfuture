@@ -13,33 +13,16 @@ While I had heard of these terms before, I didn't fully understand what they mea
 
 What is a VPN?
 
--   A VPN (Virtual Private Network) is a service that creates a private network connection between devices through the internet. It acts as a tunnel between a device and a remote server run by a VPN provider. Internet traffic travels through this tunnel encrypted, shielding it from anyone else on the network including the internet service provider, hackers or other prying eyes. 
+-   A VPN (Virtual Private Network) is a service that creates a private network connection between devices through the internet. It acts as a tunnel between a device and a remote server run by a VPN provider. Internet traffic travels through this tunnel encrypted, shielding it from anyone else on the network including the internet service provider, hackers or other prying eyes.
 
 What is peering? What is peering used for?
 
-- Peering refers to a direct connection between two separate networks that allow them to exchange traffic with each other. There are two types of peering: public and private. Public peering involves connecting to other networks at a central location called the IXP(internet exchange point), where networks come together to exchange data. Private peering involves creating a direct physical connection between two networks. An advantage to peering is cost-efficiency; it eliminates the need to pay for a third party to carry traffic between users. Another advantage is that it provides efficient routing because traffic can travel more directly between networks, improving speed and performance. Lastly, in the case of multiple peering partners, peering can ensure traffic can still flow if one network connection goes down. 
+-   Peering refers to a direct connection between two separate networks that allow them to exchange traffic with each other.
+-   There are two types of peering: public and private. Public peering involves connecting to other networks at a central location called the IXP(internet exchange point), where networks come together to exchange data. Private peering involves creating a direct physical connection between two networks.
+-   An advantage to peering is cost-efficiency; it eliminates the need to pay for a third party to carry traffic between users. Another advantage is that it provides efficient routing because traffic can travel more directly between networks, improving speed and performance. Lastly, in the case of multiple peering partners, peering can ensure traffic can still flow if one network connection goes down.
 
 What is a VPC used for?
 
-- A VPC(Virtual Private Cloud) is an isolated environment within a public cloud. It isolates your cloud resources from other users' resources in the public cloud, keeping data and applications secure. You have control over how your VPC is configured including IP address range and network routes. Additionally, you can scale your VPC up and down as needed. 
-
+-   A VPC(Virtual Private Cloud) is an isolated environment within a public cloud. It isolates your cloud resources from other users' resources in the public cloud, keeping data and applications secure. You have control over how your VPC is configured including IP address range and network routes. Additionally, you can scale your VPC up and down as needed.
 
 I've had been wanting to learn more about networking so I'm glad this was one of the prompts for the challenge. I plan on learning much more about networking in the future.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
