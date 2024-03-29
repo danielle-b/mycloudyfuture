@@ -21,7 +21,7 @@ When creating the project within R Studio, there is an option to create a git re
 
 After building my blog and publishing the changes to Github, I published my site using Netlify.
 
-My favorite part of creating the blog was the ability to publish with Continuous Integration(CI). I was able to use [Github Actions](https://quarto.org/docs/publishing/netlify.html#github-action){target="_blank"} to render and publish my site. When I commit my changes to Github, a new Github Action workflow is created. The repository for my site is linked to Netlify and it automatically publishes the changes on my site. This is the part of the blog I'm most proud of aside from documenting my experience with the Cloud Challenge.
+My favorite part of creating the blog was the ability to publish with Continuous Integration(CI). I was able to use [Github Actions](https://quarto.org/docs/publishing/netlify.html#github-action){target="_blank"} to render and publish my site. This [video](https://www.youtube.com/watch?v=arzBRW5XIkg&t=219s){target="_blank"} was extremely helpful to me as I implemented this for my site. When I commit my changes to Github, a new Github Action workflow is created. The repository for my site is linked to Netlify and it automatically publishes the changes on my site. This is the part of the blog I'm most proud of aside from documenting my experience with the Cloud Challenge.
 
 A future goal of mine is to learn how to publish a site similar to this one using Amazon S3 and Route 53, Amazon's DNS(Domain Name Registration) service.
 
