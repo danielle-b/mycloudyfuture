@@ -5,7 +5,7 @@ date: "2024-03-29"
 categories: [aws]
 ---
 
-The prompt for days 28-29 was to create a portfolio documenting my journey and what I've learned. 
+The prompt for Days 28-29 was to create a portfolio documenting my journey and what I've learned. 
 
 However, I already created my portfolio here so I thought I'd share how I created it. 
 
