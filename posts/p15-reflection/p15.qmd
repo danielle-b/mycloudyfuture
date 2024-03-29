@@ -1,7 +1,0 @@
----
-title: "30 Day Cloud Challenge: Day 30"
-author: "Danielle Brantley"
-date: "2024-03-30"
-categories: [aws]
-draft:true
----
