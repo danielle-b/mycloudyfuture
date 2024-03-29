@@ -1,0 +1,36 @@
+---
+title: "30 Day Cloud Challenge: Days 28-29"
+author: "Danielle Brantley"
+date: "2024-03-29"
+categories: [aws]
+---
+
+The prompt for days 28-29 was to create a portfolio documenting my journey and what I've learned. 
+
+However, I already created my portfolio here so I thought I'd share how I created it. 
+
+I used a tool called [Quarto](https://quarto.org/){target="_blank"} to publish this blog. Quarto is an open-source publishing suite that is used to create all types of documents including websites, blogs, dashboards, articles, presentations and even books! You can use Quarto with Python, R, and Julia and it seems that it is mostly used in the data science community. 
+
+Prior to Quarto, I used an R library called Distill to publish my portfolio site and blog.
+
+I chose Quarto as my tool of choice in creating my static site because of my experience using Distill and R. I found that creating content on Distill and Quarto are very similar. 
+
+To use Quarto, I downloaded Quarto, R, and R Studio(an IDE used for R). I created a project within R Studio and from there began building my blog. Markdown files were used build the the pages of the site (the about and projects page) and the blog content. Although there are html, css, javascript, json and yaml files that are automatically generated when the blog is created, I exclusively interact with the yaml and markdown files. 
+
+When creating the project within R Studio, there is an option to create a git repository associated with your project. I chose this option so I could push my content into Github.
+
+After building my blog and publishing the changes to Github, I published my site using Netlify.
+
+My favorite part of creating the blog was the ability to publish with Continuous Integration(CI). I was able to use [Github Actions](https://quarto.org/docs/publishing/netlify.html#github-action){target="_blank"} to render and publish my site. When I commit my changes to Github, a new Github Action workflow is created. The repository for my site is linked to Netlify and it automatically publishes the changes on my site. This is the part of the blog I'm most proud of aside from documenting my experience with the Cloud Challenge.
+
+A future goal of mine is to learn how to publish a site similar to this one using Amazon S3 and Route 53, Amazon's DNS(Domain Name Registration) service.
+
+
+I went through so many emotions creating this site but it was all worth it! I learned so much and picked up a new skill in the process. I am very pleased with how it all turned out!
+
+ 
+
+
+
+
+
