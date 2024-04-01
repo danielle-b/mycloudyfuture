@@ -3,7 +3,6 @@ title: "Linux Basics for Hackers Day 1"
 author: "Danielle Brantley"
 date: "2024-04-01"
 categories: [linux]
-draft: true
 ---
 
 # Chapter 1: Getting Started with the Basics
