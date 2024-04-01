@@ -8,6 +8,12 @@ draft: true
 
 # Chapter 1: Getting Started with the Basics
 
+As mentioned in a previous post, I began reading Linux Basics for Hackers by Occupy the Web. I'll focus on the first ten chapters of this book. Recommended by GPS, I thought this would be a fun way to learn Linux. So without further delay, let's get started!
+
+Using Parallels as my virtualization software, I downloaded Kali Linux as my virtual machine.
+
+![](images/kali_linux.png)
+
 **Binaries** - files that can be executed
 
 **Linux is case-sensitive**
@@ -28,27 +34,27 @@ draft: true
 
 ## The Linux Filesystem
 
-![Photo taken from Linux Basics for Hackers by Occupy the Web](filesystem.png)
+![Photo by Occupy the Web](images/filesystem.png)
 
-**/root** The home directory of the all-powerful root user\
+**/root** The home directory of the all-powerful root user
 
-**/etc** Generally contains the Linux configuration files-files that control when and how programs start up\
+**/etc** Generally contains the Linux configuration files-files that control when and how programs start up
 
-**/home** The user's home directory\
+**/home** The user's home directory
 
-**/mnt** Where other filesystems are attached or mounted to the filesystem\
+**/mnt** Where other filesystems are attached or mounted to the filesystem
 
-**/media** Where CDs and USB devices are usually attached or mounted to the file system\
+**/media** Where CDs and USB devices are usually attached or mounted to the file system
 
-**/bin** Where application binaries (the equivalent of executables in Microsoft Windows or applications in macOS) reside\
+**/bin** Where application binaries (the equivalent of executables in Microsoft Windows or applications in macOS) reside
 
 **/lib** Where you'll find libraries(shared programs that are similar to Windows DLLs)
 
 ## Navigating the Linux Filesystem
 
-**pwd(print working directory)** - returns your location within the directory structure\
+**pwd(print working directory)** - returns your location within the directory structure
 
-**whoami** - see which user your logged in as\
+**whoami** - see which user your logged in as
 
 **cd(change directory)** - change directories from the terminal
 
@@ -56,25 +62,25 @@ draft: true
 -   ../.. (move up two levels)
 -   / (move up to root level in the file structure)
 
-**ls** - lists both files and subdirectories of a directory\
+**ls** - lists both files and subdirectories of a directory
 
-**ls -l**: get more information about files and directories\
+**ls -l**: get more information about files and directories
 
-**ls - la**: lists all files including hidden files\
+**ls - la**: lists all files including hidden files
 
-**--help**: provides help with commands\
+**--help**: provides help with commands
 
-**man**: provides more information about a comman or application\
+**man**: provides more information about a command or application
 
-**locate**: goes through your entire filesystem and locate every occurence of a keyword (uses a database that is updated once a day)\
+**locate**: goes through your entire filesystem and locate every instance of a keyword (uses a database that is updated once a day)
 
-**whereis**: used to find location of source/binary file of a command and manuals sections for a specified file in Linux system.\
+**whereis**: used to find location of source/binary file of a command and manuals sections for a specified file in Linux system.
 
-**which**: only returns the location of the binaries in the PATH variable in Linux.\
+**which**: only returns the location of the binaries in the PATH variable in Linux.
 
-**PATH**: holds the directories in which the operating system loks for the commands you execute at the command line.\
+**PATH**: holds the directories in which the operating system looks for the commands you execute at the command line.
 
-**find**: searches for files and directories with various criteria, such as date of creation, owner and size. Only displays exact match names but this is remedied using wildcards.\
+**find**: searches for files and directories with various criteria, such as date of creation, owner and size. Only displays exact match names but this is remedied using wildcards.
 
 **grep**: filter to search for keywords
 
@@ -83,3 +89,21 @@ draft: true
 **ps**: displays information about processes running on the machine.
 
 **cat**: displays contents of a file. Also can be used to create new files using the "\>" command along with the name of the file we want to create.
+
+**touch**: creates a new file
+
+**mkdir**: create a directory
+
+**cp**: copying a file
+
+**mv**: renaming a file
+
+**rm**: removing a file
+
+**rmdir**: removing a directory
+
+**rm - r** : removes directory and its contents
+
+Though I'm familiar with many of these commands, it was nice to revisit them and try out new commands that I hadn't seen before. \
+\
+I'm looking forward to Chapter 2!
