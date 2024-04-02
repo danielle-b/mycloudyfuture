@@ -1,5 +1,5 @@
 ---
-title: "Linux Basics for Hackers Day 1"
+title: "Linux Basics for Hackers: Day 1"
 author: "Danielle Brantley"
 date: "2024-04-01"
 categories: [linux]
@@ -103,6 +103,10 @@ Using Parallels as my virtualization software, I downloaded Kali Linux as my vir
 
 **rm - r** : removes directory and its contents
 
-Though I'm familiar with many of these commands, it was nice to revisit them and try out new commands that I hadn't seen before. \
+Here is one of the exercises I did at the end of the chapter. The exercise stated to use the cat command to create a new file and append to the new file.
+
+![](images/chapter1_linux.png)
+
+Though I'm familiar with many of these commands, it was nice to revisit them and try out new commands that I hadn't seen before.\
 \
 I'm looking forward to Chapter 2!
