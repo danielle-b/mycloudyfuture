@@ -6,3 +6,20 @@ categories: [linux]
 draft: true
 ---
 
+# Chapter 2: Text Manipulation
+
+**head**: used to view first 10 lines of a file
+
+**tail**: used to view last 10 lines of a file
+
+If there are more or less than 10 lines that need to be seen, I could do: **head -20 home/newdirectory/file.txt** or **tail -20 home/newdirectory/.file.txt**
+
+**nl**: displays a file with line numbers
+
+**sed**: searches for occurrences of a word or text pattern 
+
+**more**:
+
+**less**:
+
+
