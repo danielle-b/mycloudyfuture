@@ -3,7 +3,6 @@ title: "Linux Basics for Hackers: Day 2"
 author: "Danielle Brantley"
 date: "2024-04-02"
 categories: [linux]
-draft: true
 ---
 
 # Chapter 2: Text Manipulation
@@ -16,10 +15,16 @@ If there are more or less than 10 lines that need to be seen, I could do: **head
 
 **nl**: displays a file with line numbers
 
-**sed**: searches for occurrences of a word or text pattern 
+**sed**: searches for occurrences of a word or text pattern and then performs some action on it
 
-**more**:
+**more**: displays a page of a file at at time and lets you move down the page using the "Enter/Return" key.
 
-**less**:
+**less**: similar to the "more" command except it does not load the entire file at once and you're able to search for text within the file.
 
+Below are some of the exercises that were at the end of the chapter. Using "tail" command to see the last 20 passwords and using grep to find passwords that contain "123".
 
+![](linux2.png)
+
+This chapter was pretty short! What I found interesting is that there are "head" and "tail" commands in Linux. When I was learning R and Pandas (a Python library for data manipulation and analysis), I came across "head" and "tail" functions. These functions seem to perform the same across languages.
+
+Looking forward to Chapter 3!
