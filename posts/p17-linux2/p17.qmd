@@ -7,6 +7,8 @@ categories: [linux]
 
 # Chapter 2: Text Manipulation
 
+Continuing with Linux Basics for Hackers, I learned how to deal with text files and manipulate text with a few commands. 
+
 **head**: used to view first 10 lines of a file
 
 **tail**: used to view last 10 lines of a file
