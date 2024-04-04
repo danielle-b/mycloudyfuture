@@ -1,0 +1,31 @@
+---
+title: "Linux Basics for Hackers: Day 3"
+author: "Danielle Brantley"
+date: "2024-04-03"
+categories: [linux]
+draft: true
+---
+
+# Chapter 3: Analyzing and Managing Networks
+
+In this chapter, I learned about Linux tools used for analyzing and managing networks. Before I dive into the chapter, I came across some familiar terms such as IP address and subnet. Learning these terms prior made this chapter easier to understand.
+
+**ifconfig**: displays current network configuration information. Information displayed include the following:
+
+-   Ethernet0 or eth0, the first wired network connection.
+
+-   Broadcast address or Bcast, which is the address used to send out information to all IPs on the subnet.
+
+-   Network mask or net mask which is used to determine what part of the IP address is connected to the local network.
+
+-   lo (short for loopback address) which is a special software address that connects to your own system.
+
+In addition to the above, ifconfig can be used to change your IP address, network mask, broadcast address and MAC address.
+
+**iwconfig**: similar to ifconfig but used for wireless network configuration information.
+
+**dhclient**: requests IP addresses from from a DHCP server.
+
+**dig**: retrieves DNS information about a target domain.
+
+The exercises in this chapter were pretty cool! I got to change my IP and hardware addresses find the nameserver and email server of my favorite website. This was a fun chapter and with that I'm moving on to Chapter 4!
