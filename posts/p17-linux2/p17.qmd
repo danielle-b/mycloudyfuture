@@ -7,7 +7,7 @@ categories: [linux]
 
 # Chapter 2: Text Manipulation
 
-Continuing with Linux Basics for Hackers, I learned how to deal with text files and manipulate text with a few commands. 
+Continuing with Linux Basics for Hackers, I learned how to deal with text files and manipulate text with a few commands.
 
 **head**: used to view first 10 lines of a file
 
@@ -23,9 +23,37 @@ If there are more or less than 10 lines that need to be seen, I could do: **head
 
 **less**: similar to the "more" command except it does not load the entire file at once and you're able to search for text within the file.
 
-Below are some of the exercises that were at the end of the chapter. Using "tail" command to see the last 20 passwords and using grep to find passwords that contain "123".
+Below are the exercises I did!
 
-![](linux2.png)
+1.  Navigate to */usr/share/metasploit-framework/data/wordlists*.
+
+    ![](images/number1.png)
+
+2.  Use the cat command to view the contents of the password.lst file. There are over 88,000 passwords in this file so obviously I couldn't show them all.
+
+    ![](images/number2.png)
+
+3.  Use more command to display password.lst file.
+
+    ![](images/number3.png)
+
+4.  Use the less command to view contents of the password.lst file.
+
+    ![](images/number4.png)
+
+    ![](images/number4part2.png)
+
+5.  Use the nl command to place line numbers on the passwords in password.lst.
+
+    ![](images/number5.png)
+
+6.  Use tail command to see the last 20 passwords in password.lst.
+
+    ![](images/number6.png)
+
+7.  Use cat command to display password.lst and pipe it to find all passwords containing "123".
+
+    ![](images/number7.png)
 
 This chapter was pretty short! What I found interesting is that there are "head" and "tail" commands in Linux. When I was learning R and Pandas (a Python library for data manipulation and analysis), I came across "head" and "tail" functions. These functions seem to perform the same across languages.
 
