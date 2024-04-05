@@ -1,6 +1,6 @@
 ---
-title: "Linux Basics for Hackers: Day 4"
+title: "Linux Basics for Hackers: Day 5"
 author: "Danielle Brantley"
-date: "2024-04-04"
+date: "2024-04-05"
 categories: [linux]
 ---
