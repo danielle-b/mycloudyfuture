@@ -29,6 +29,24 @@ But first I needed to get familiar with some apt commands.
 
 **repositories**: Servers that hold the software for particular distributions of Linux.
 
+In addition to the commands above, I learned how to add repositories to the sources.list file. The sources.list file contains the repositories my system will search for software from.
+
+![](images/repository1.png)
+
+![](images/repository2.png)
+
+I can alter this file to define which repositories I want to download software. Repositories are broken down into five categories:
+
+-   **main**: Contains supported open source software
+
+-   **universe**: Contains community-maintained open source software
+
+-   **multiverse**: Contains software restricted by copyright or other legal issues
+
+-   **restricted**: Contains proprietary device drivers
+
+-   **backports**: Contains packages for later releases
+
 Now for the exercises!
 
 1.  Install a new software package from the Kali repository.
