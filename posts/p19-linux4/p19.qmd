@@ -7,6 +7,10 @@ categories: [linux]
 
 # Chapter 4: Adding and Removing Software
 
+In this chapter, I learned about adding and removing software. This chapter explained three methods of adding new software: apt package manager, git, and GUI-based installation tools. The exercises focused on the former two so that's what I'll be did.
+
+But first I needed to get familiar with some apt commands.
+
 **apt**: Stands for Advanced Packaging Tool, the default software manager for Debian-based Linux distributions. The primary command is *apt-get* which is used to download & install new software, update & upgrade software and remove software.
 
 **apt-cache search**: Searches for a software package.
@@ -15,9 +19,9 @@ categories: [linux]
 
 **apt-get remove**: Removes software.
 
-**apt-get purge**: Removes software and its configuration files. 
+**apt-get purge**: Removes software and its configuration files.
 
-**apt autoremove**: Removes software's libraries and dependencies. 
+**apt autoremove**: Removes software's libraries and dependencies.
 
 **apt-get update**: Updates out-of-date software packages.
 
@@ -25,12 +29,38 @@ categories: [linux]
 
 **repositories**: Servers that hold the software for particular distributions of Linux.
 
+Now for the exercises!
 
+1.  Install a new software package from the Kali repository.
 
+    I decided to install Apktool, a tool for reverse engineering third party Android apps. I first searched for the package then attempted to install. However, when I attempted to install Apktool, I got an error. The error message is basically saying that don't have root permissions and I need to log in as the root in order to install the package. After typing *sudo su* and re-entering the install command, I was able to successfully install Apktool.
 
+    ![](images/search.png)
 
+    ![](images/install.png)
 
+2.  Remove that same software package.
 
+    After removing the apktool package, I typed *apt-get purge* to remove its configuration files and *apt autoremove* to remove its libraries and dependencies.
 
+    ![](images/remove.png)
 
+    ![](images/purge.png)
 
+    ![](images/autoremove.png)
+
+3.  Update repository.
+
+    ![](images/update.png)
+
+4.  Upgrade software packages.
+
+    ![](images/upgrade.png)
+
+5.  Select a new piece of software from github and clone it to your system.
+
+    I decided to clone the repository for a software package called BeEF, which is short for The Browser Exploitation Framework. It's a penetration testing tool that focuses on the web browser.
+
+    ![](images/clone.png)
+
+Using the apt package manager was a brand new experience for me and I got a lot of practice with this chapter! In addition, I learned how to navigate root permissions. That's a wrap for chapter 4! Next up chapter 5!
