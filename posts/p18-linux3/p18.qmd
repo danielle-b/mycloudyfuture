@@ -27,4 +27,4 @@ In addition to the above, ifconfig can be used to change your IP address, networ
 
 **dig**: retrieves DNS information about a target domain.
 
-The exercises in this chapter were pretty cool but I decided not show them because of security concerns. With that, I'm moving on to Chapter 4!
+The exercises in this chapter looked pretty cool but I decided not to do them because of concerns about it would affect my network. With that, I'm moving on to Chapter 4!
