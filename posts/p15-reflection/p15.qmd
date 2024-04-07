@@ -35,6 +35,6 @@ This challenge has inspired me to want to do the following:
 
     -   I decided I wanted to sit for AWS Solutions Architect certification this year and I'm going to use this approach to complete a Solutions Architect course I brought earlier this year.
 
-    -   Later this year, I want to the 30 Day Cloud Beginner Challenge again using Azure.
+    -   Later this year, I want to complete the 30 Day Cloud Beginner Challenge again using Azure.
 
 All in all, this 30 Day Cloud Challenge was an amazing learning experience! This was a fun way for me to get more hands on with AWS. AWS does not seem as overwhelming anymore! I am so happy to have come across the Cozy Cloud Crew and learn from everyone in the community. I'm looking forward to continuous learning and growing with this community. I eventually want a job opportunity where I am able to put these skills to use.
