@@ -49,6 +49,8 @@ I can alter this file to define which repositories I want to download software. 
 
 Now for the exercises!
 
+### Exercises
+
 1.  Install a new software package from the Kali repository.
 
     I decided to install Apktool, a tool for reverse engineering third party Android apps. I first searched for the package then attempted to install. However, when I attempted to install Apktool, I got an error. The error message is basically saying that don't have root permissions and I need to log in as the root in order to install the package. After typing *sudo su* and re-entering the install command, I was able to successfully install Apktool.

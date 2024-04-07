@@ -25,6 +25,8 @@ If there are more or less than 10 lines that need to be seen, I could do: **head
 
 Below are the exercises I did!
 
+### Exercises
+
 1.  Navigate to */usr/share/metasploit-framework/data/wordlists*.
 
     ![](images/number1.png)

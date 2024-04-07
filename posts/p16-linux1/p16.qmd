@@ -105,6 +105,8 @@ Using Parallels as my virtualization software, I downloaded Kali Linux as my vir
 
 Here are the exercises I did at the end of the chapter.
 
+### Exercises
+
 1.  Use the *ls* command from the root (/) directory to explore the directory structure of Linux.
 
     I explored all the folders in the root directory including the dev folder shown here.
@@ -115,7 +117,7 @@ Here are the exercises I did at the end of the chapter.
 
     ![](images/number2.png)
 
-3.  Use the *locate* command to find the wordlists. \
+3.  Use the *locate* command to find the wordlists.\
     There were many wordlists so I just took a photo of a few.
 
     ![](images/number3.png)
