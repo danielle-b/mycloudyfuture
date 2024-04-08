@@ -1,0 +1,112 @@
+---
+title: "Linux Basics for Hackers: Day 6"
+author: "Danielle Brantley"
+date: "2024-04-06"
+categories: [linux]
+---
+
+# Chapter 6: Process Management
+
+This chapter was about how to manage processes. First, I learned to view and find processes and how to discover which processes are using the most resources. Next, I learned how to run processes in the background, prioritize processes, and kill them if it's necessary. Finally, I learned how to schedule processes on certain days and times.
+
+Let's get into it!
+
+**process**: A program that's running and using resources. Examples include databases, web servers, and a terminal.
+
+**ps**: Command to view processes. The Linux kernel assigns a unique process ID (PID) to each process as they are created. When working with these processes in Linux, the PID often needs to be specified.
+
+**ps aux**: Command to view all processes running on the system for all users. This command give us the following pieces of information:
+
+-   **User**: The user who invoked the process.
+
+-   **PID**: The process ID.
+
+-   **%CPU**: The percent of CPU this process is using.
+
+-   **%MEM**: The percent of memory this process is using.
+
+-   **Command**: The name of the command that started the process.
+
+We can use grep to filter a ps search to find a particular process.
+
+**top**: Displays the list of processes ordered by resources used, starting with the largest. Refreshes every 3 seconds.
+
+**nice**: Influences the priority of a process to the kernel. The values for the nice range from -20 to 19, with 0 being the default nice value. A low nice value translates into high priority and a high nice value translates into low priority. Essentially, if you're process has a low nice value, it means you're not being nice to other users and processes.
+
+**renice**: Alters the priority of the process has started. It takes the absolute values between -20 and 19 and sets the priority to that particular level. It also requires the PID of the process that is being targeted rather than its name.
+
+Note: The *renice* command requires an absolute value for niceness while the *nice* command requires that the you increment the nice value.
+
+Note: Any user can reduce priority but they cannot increase priority. The root user can arbitrarily set the nice and renice values to whatever they please. The top command described above can be used to change the nice value.
+
+**rouge process**: A process that consume way too many system resources, exhibits unusual behavior or freezes.
+
+**kill**: A command most commonly used to terminate a process. The command **killall** is used when the process' PID is unknown. The table below lists the common kill signals:
+
+| Signal Name | Number Option | Description                                                                                                                                                                                       |
+|-------------|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SIGHUP      | 1             | This is known as the Hangup (HUP) signal. It stops the designated process and restarts it with the same PID.                                                                                      |
+| SIGINT      | 2             | This is the Interrupt (INT) signal. It is a weak kill signal that isn't guaranteed to work, but it works in most cases.                                                                           |
+| SIGQUIT     | 3             | This known as the *core dump*. It terminated the process and saves the process information in memory, and then it saves this information in the current working directory to a file named *core*. |
+| SIGTERM     | 15            | This is the Termination (TERM) signal. It is the kill command's default kill signal.                                                                                                              |
+| SIGKILL     | 9             | This is the absolute kill signal. It forces the process to stop by sending the process's resources to a special device, /dev/null.                                                                |
+
+The ampersand (**&**) sign is used to run process in the background. The command **fg** is used to move a process to the foreground.
+
+The following commands are used to schedule processes in Linux:
+
+-   **at**: Schedule a single command to run at a specific date and time in the future. The at command itself doesn't run the jobs. It submits the request to a daemon called atd which then schedules and executes the command at the specified time.
+
+-   **atd**: A background service that listens for commands submitted by the at command and executes them at the scheduled time.
+
+-   **crond**: Schedules tasks to run periodically.
+
+-   Here are some time formats accepted by the at Command :
+
+    | Time Format           | Meaning                                            |
+    |-----------------------|----------------------------------------------------|
+    | at 7:20pm             | Scheduled to run at 7:20 PM on the current day     |
+    | at 7:20pm June 25     | Scheduled to run at 7:20 PM on June 25             |
+    | at noon               | Scheduled to run at noon on the current day        |
+    | at now + 10 hours     | Scheduled to run in 10 hours from the current time |
+    | at 7:20 PM 06/25/2024 | Scheduled to run at 7:20 PM on June 25, 2024       |
+
+### Exercises
+
+1.  Run the ps command with the aux options on your system. Take note of which process is first and which is last.
+
+    The */sbin/init spla* is the first process and *ps aux* is the last process.
+
+    ![](images/e1.png)
+
+    ![](images/e1_2.png)
+
+2.  Run the top command and note the two processes using the greatest amount of your resources.
+
+    If you notice *firefox-esr* is the process taking up the most resources. I'm going to using the next exercise to kill that process.
+
+    ![](images/e2.png)
+
+3.  Use the kill command to kill the process that uses the most resources.
+
+    When I killed the *firefox-esr* process, the firefox browser closed out. As you can see, it's no longer listed here.
+
+    ![](images/e3.png)
+
+    ![](images/e3_2.png)
+
+4.  Use the renice command to reduce the priority of a running process to +19.
+
+    I decided to use this command to reduce the priority of the qterminal process.
+
+    ![](images/e4.png)
+
+5.  Create a script called myscanning with a text editor and then schedule it to run next Wednesday at 1 AM.
+
+    I decided to change the date so that my script ran on Monday, April 8, 2024 at 11:05am. After scheduling this script, I used the atq command to show me list of scheduled processes.
+
+    ![](images/e5.png)
+
+    ![](images/e5_2.png)
+
+I enjoyed this chapter especially writing the bash script and scheduling it. And with that, moving on to chapter 7!
