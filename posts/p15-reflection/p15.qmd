@@ -29,7 +29,7 @@ This challenge has inspired me to want to do the following:
 
 -   What other topics can I learn using the 30 Day approach?
 
-    -   Well, inspired by this [Made by GPS](https://www.youtube.com/watch?v=ZwUc07UsI-c&t=611s){target="_blank"} video(really her entire YouTube channel), I decided to read the first 10 chapters of Linux Basics for Hackers by Occupy the Web. I already started Chapter 1 and I'm in the middle of writing a blog post detailing my notes.
+    -   Well, inspired by this [Made by GPS](https://www.youtube.com/watch?v=ZwUc07UsI-c&t=611s){target="_blank"} video(really her entire YouTube channel), I decided to read the first 9 chapters of Linux Basics for Hackers by Occupy the Web. I already started Chapter 1 and I'm in the middle of writing a blog post detailing my notes.
 
     -   I am currently learning programming and this challenge has helped me alter how I study.
 

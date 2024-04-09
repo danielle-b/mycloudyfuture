@@ -7,7 +7,7 @@ categories: [linux]
 
 # Chapter 1: Getting Started with the Basics
 
-As mentioned in a previous post, I began reading Linux Basics for Hackers by Occupy the Web. I'll focus on the first ten chapters of this book. Recommended by GPS, I thought this would be a fun way to learn Linux. So without further delay, let's get started!
+As mentioned in a previous post, I began reading Linux Basics for Hackers by Occupy the Web. I'll focus on the first nine chapters of this book. Recommended by GPS, I thought this would be a fun way to learn Linux. So without further delay, let's get started!
 
 Using Parallels as my virtualization software, I downloaded Kali Linux as my virtual machine.
 
