@@ -1,0 +1,60 @@
+---
+title: "Linux Basics for Hackers: Day 8"
+author: "Danielle Brantley"
+date: "2024-04-08"
+categories: [linux]
+---
+
+# Chapter 8: Bash Scripting
+
+I learned about building bash scripts. Oftentimes, Linux administrators need to automate commands and the most effective way to do that is writing short programs known as scripts.
+
+**shell**: an interface between the user and the operating system that enables you to manipulate files and run commands, utilities, programs and much more.
+
+**read**: reads in data and stores it somewhere else.
+
+**variable**: an area of storage that can hold something in memory.
+
+After creating a script in a text editor and saving it to a directory, I gave myself execute permissions in order to run the script. The process look something like the screenshots below. Note that the `./` before the filename tells the system that I want to execute this script in the file HelloHackersArise from the current directory. It also tells the system that if there is another file in another directory named HelloHackersArise ignore it and only run HelloHackerArise in the current directory.
+
+![](images/create_script1.png)
+
+![](images/create_script2.png)
+
+As you can see my HelloHackersArise file contains a simple script. The WelcomeScript.sh file below takes bash scripting a step further by adding functionality with variables and user input.
+
+The first line, `#! /bin/bash` , tells the system we want to use the bash interpreter for this script. The `#!` is called a shebang and is used to begin all scripts.
+
+The next four lines are called comments which describe the script and its functionality. Comments in bash begin with a `#` sign.
+
+I used echo to prompt the user for their name and ask the interpreter to read the input and place it into a variable called name. I then prompt the user to enter the chapter they are currently working through in the book. I ask the interpreter to read that input and place it in a variable called chapter.
+
+The echo command is used a final time when constructing a line of output that welcomes the reader by name to the chapter they're on. To fill in the name and the chapter number the user entered, we add the variables where they should appear in the message, adding dollar signs in front of the variables.
+
+![](images/text.png)
+
+The photo below is me running this script and entering input before getting the welcome message.
+
+![](images/script.png)
+
+Lastly, I want show some of the common built-in bash commands. I'll list the ones I haven't seen yet.
+
+| Command | Function                                                                                     |
+|-------------|-----------------------------------------------------------|
+| exec    | Executes the following command without creating a new process, replacing the current process |
+| getopts | Parses arguments to the shell script                                                         |
+| jobs    | Lists background (bg) jobs                                                                   |
+| trap    | Traps a signal so the script can handle it (untrapped signals terminate the script)          |
+| wait    | Waits for a background process to complete                                                   |
+
+### Exercises
+
+I'm only doing the first exercise in this chapter which is to create a greeting script similar to HelloHackerArise.
+
+![](images/text_1.png)
+
+![](images/change_permissions.png)
+
+![](images/final_script.png)
+
+This might be my favorite chapter so far! These scripts were pretty simple I wrote were pretty simple but I came away with a lot more knowledge about bash scripting! I look forward to building more complex scripts. But for now, on to Chapter 9!
