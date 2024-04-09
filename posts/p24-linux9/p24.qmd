@@ -4,3 +4,73 @@ author: "Danielle Brantley"
 date: "2024-04-09"
 categories: [linux]
 ---
+
+# Chapter 9: Compressing and Archiving
+
+Chapter 9 was about learning few of the most common ways for compressing files.
+
+**compression**: makes data smaller, requiring less storage capacity and making the data easier to transmit. This chapter categorizes compression as either lossy or lossless.
+
+-   Lossy compression is effective and efficient in reducing the size of files but the integrity of the file is lost. This type of compression works great for audio, videos and graphics files where a small difference in in the file is hardly noticeable. The compression ratio is high meaning that the resulting file is significantly smaller than the original. Lossy compression is not good for files or software where data integrity is crucial.
+
+-   Lossless compression prioritizes preserving all the data in the original file. It works by finding redundancies within the data and representing them more efficiently. This can involve things like eliminating repeating sequences of data or using codes to represent common patterns. When you uncompress a losslessly compressed file, you get back the exact original data - perfect fidelity but with a modest reduction in file size. This is great for text documents, spreadsheets, or code where data integrity is crucial. Lossless compression is the focus of this chapter.
+
+**tar**: A command that creates a single file from many files, which is then referred to as an archive, tar file, or tarball.
+
+The following are options with the tar command:
+
+-   **c**: creates a new archive.
+
+-   **v**: stands for verbose and is optional. This option lists the files tar is dealing with.
+
+-   **f**: write to the following file. Can also work for reading from files.
+
+-   **t**: displays files from the archive without extracting them.
+
+-   **x**: extracts files from the archive.
+
+Linux has several commands for compressing files. In this chapter, I learned about three of those commands which are:
+
+-   **gzip**, which uses the extension .tar.gz or .tgz and falls in between bzip2 and compress in terms of speed and file size. This is the most common used compression command in Linux. The command **gunzip** is used to decompress a gzip file.
+
+-   **bzip2**, which uses the extension .tarbz2 and is the slowest but the resulting files are the smallest. The command **bunzip2** is used to decompress a bzip2 file.
+
+-   **compress**, which uses the extension .tar.z and is the fastest but the resulting files are larger. The command **uncompress** is used to decompress a compress file but gunzip could also be used.
+
+### Exercises
+
+1.  Create three scripts to combine, similar to what we did in Chapter 8. Name them Linux4Hackers1, Linux4Hackers2, and Linux4Hackers3.
+
+    ![](images/e1.png)
+
+2.  Create a tarball from these three files. Name the tarball L4H. Note how the size of the sum of the three files changes when they are tarred together.
+
+    ![](images/e2.png)
+
+    The three files tarred together are 10,240 bytes!
+
+    ![](images/e2_1.png)
+
+3.  Compress the L4H tarball with gzip. Note how the size of the file changes. Now uncompress the L4H file.
+
+    The size of the file changed to 349 bytes when compressing with gzip.
+
+    ![](images/e3.png)
+
+    ![](images/e3_2.png)
+
+4.  Repeat Exercise 3 using both bzip2 and compress.
+
+    Here is the repeat exercise with bunzip2.
+
+    ![](images/e4_1.png)
+
+    ![](images/e4_2.png)
+
+    Here is the repeat exercise with compress.
+
+    ![](images/e4_3.png)
+
+    ![](images/e4_4.png)
+
+This is the last chapter that I will be reading from the Linux Basics for Hackers for now. I had fun these past nine days learning Linux. I may be done with the book for now, this is just the beginning of my journey. I will continue to practice what I've learned through these readings and grow my Linux skills.
