@@ -28,7 +28,16 @@ The tree levels of permissions:
 -   Decimal Notation
     -   In decimal notation, permissions are represented in binary (1 and 0) which is then converted into octal, an eight-digit number system that starts with 0 and ends with 7. An octal digit represents a set of three binary digits meaning we can represent an entire rwx set with one digit. The table below was helpful in understanding decimal notation.
 
-        ![Photo by Occupy the Web](images/permissions.png)
+        | Binary | Octal | rwx  |
+        |--------|-------|------|
+        | 000    | 0     | ---  |
+        | 001    | 1     | --x  |
+        | 010    | 2     | -w-  |
+        | 011    | 3     | -wx  |
+        | 100    | 4     | r–-  |
+        | 101    | 5     | r-x  |
+        | 110    | 6     | rw-  |
+        | 111    | 7     | rwx  |
 -   UGO (user, group, others) syntax
     -   With UGO syntax, you enter the *chmod* command and then the users you want to change permissions for. The "u"is for user, "g" is for group and the "o" is for others. This is followed by one of three operations:
         -   Removes a permission is represented by the minus sign (-).

@@ -1,0 +1,78 @@
+---
+title: "Linux Basics for Hackers: Day 7"
+author: "Danielle Brantley"
+date: "2024-04-07"
+categories: [linux]
+---
+
+# Chapter 7: Managing User Environment Variables
+
+This chapter was about managing user variables. I learned how to view and modify variables, change the shell prompt, change my PATH and add to the PATH variable and create my own custom variables.
+
+**environment variables**: Special settings that control how your system behaves and what it looks like. They apply to all programs you run, and even new programs you open inherit these settings. They are typically listed in uppercase.
+
+**shell variables**: Typically listed in lowercase and are only valid in the shell they are set in.
+
+**env**: The command that allos you to view all default environment variables.
+
+The command **set** can be used to view all environment variables. To view each variable line by line use **set \| more** and to filter for particular variables use **set \| grep**.
+
+**export**: The command that permanently changes variable values.
+
+Before making changes to variables, it's a good idea save the contents of a variable to a text file before modifying it.
+
+You can either save the the existing values to a text file `echo $HISTSIZE ~/valueofHISTSIZE.txt` or create a text file with all the current settings `set> ~/valueofALLon)1012019.txt` .
+
+You can change the shell prompt by setting the value for the PS1 variable. This variable has a set of placeholders for information displayed in the prompt including:
+
+-   \u : The name of the current user
+
+-   \h : The hostname
+
+-   \w The base name of the current working directory
+
+**PATH**: The variable that controls where on your system your shell will look for commands you enter, such as ls and echo. Most commands are located in the *sbin* or *bin* subdirectory. The dollar sign(\$) commonly seen in front of the PATH variable is the content symbol and when in use we are asking the system for the content of the variable.
+
+Note: When adding to the PATH variable be sure to not assign a new directory directly to the PATH variable. This replaces the PATH variable with the new directory and the variable will no longer contain the system binaries directories that hold critical commands. You want the command to look like this: `PATH=$PATH:/root/newhackingtool` .
+
+You can create custom user-defined variables in Linux like this: `MYNEWVARIABLE="I love Linux"` .
+
+**unset**: A command used to delete variables.
+
+### Exercises
+
+1.  View all of you environment variables with the *more* command.
+
+    ![](images/e1.png)
+
+2.  Create a variable named MYNEWVARIABLE and put your name in it.
+
+    ![](images/e2.png)
+
+3.  Use *echo* to view the contents of MYNEWVARIABLE.
+
+    ![](images/e3.png)
+
+4.  Export MYNEWVARIABLE so that it’s available in all environments.
+
+    I later deleted MYNEWVARIABLE using the command *unset*.
+
+    ![](images/e4.png)
+
+    ![](images/e8.png)
+
+5.  Use the *echo* command to view the contents of the PATH variable.
+
+    ![](images/e5.png)
+
+6.  Add your home directory to the PATH variable so that any binaries in your home directory can be used in any directory.
+
+    Instead of adding my home directory to the PATH variable, I added the directory I created previously called hackerdirectory.
+
+    ![](images/e6.png)
+
+7.  Change your PS1 variable to "World's Greatest Hacker:".
+
+    ![](images/e7.png)
+
+I am having fun learning Linux! Can't wait to see what's in store for Chapter 8.
