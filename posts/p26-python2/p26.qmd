@@ -1,7 +1,0 @@
----
-title: "Python Crash Course: Day 2"
-author: "Danielle Brantley"
-date: "2024-04-23"
-categories: [python]
-draft:true
----
