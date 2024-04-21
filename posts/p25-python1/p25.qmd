@@ -1,0 +1,26 @@
+---
+title: "Python Crash Course: Day 1"
+author: "Danielle Brantley"
+date: "2024-04-22"
+categories: [python]
+---
+
+For this series, I decided to tackle Python by reading Python Crash Course: A Hands-On, Project-Based Introduction to Programming by Eric Matthes. I will be reading the first 11 chapters. This will be
+
+Let me start with chapter 1!
+
+This chapter was all about getting started with Python. The first thing I had to do was set up my programming environment. I am using MacOS so I followed the instructions that were given for my operating system.
+
+I checked to see what version of Python the book uses and learned that every piece of code in the book runs on Python 3.9 or later. I upgraded to the [latest version](https://www.python.org/downloads/){target="_blank"} of Python which at the time of this post is 3.12.3. I accomplished this by first deleting the old version. Then I installed the 3.12.3 version and added to the PATH variable with help from this [video](https://www.youtube.com/watch?v=-HatIX08HAY){target="_blank"} by David Blaikie. I confirmed that the new version worked by typing python3 to check the version of python that was on my machine. After that, I ran a simple print statement. The three angle brackets (\>\>\>) prompts me to type in the terminal window.
+
+![](images/confirmation.png)
+
+The next step was to install a text editor or an IDE. The book recommends Visual Studio Code or VS code for short. I already have VS Code installed so I moved on to create a new file in VS Code to run the same Hello World program as above. This is what it looks like when I run this program from VS Code.
+
+![](images/confirmation2.png)
+
+I could also run this program from the terminal as shown below. First using the *cd* command to navigate to the directory where the file is located then running the *ls* command which lists non-hidden files in the directory. I run the file by typing python3 followed by the file name.
+
+![](images/confirmation3.png)
+
+That was all for this chapter! I'm looking forward to chapter 2 where I'll start to complete the exercises!
