@@ -5,7 +5,7 @@ date: "2024-04-22"
 categories: [python]
 ---
 
-For this series, I decided to tackle Python by reading Python Crash Course: A Hands-On, Project-Based Introduction to Programming by Eric Matthes. I will be reading the first 11 chapters. This will be
+For this series, I decided to tackle Python by reading Python Crash Course: A Hands-On, Project-Based Introduction to Programming by Eric Matthes. I will be reading the first 11 chapters and attempting some Python projects!
 
 Let me start with chapter 1!
 

@@ -1,0 +1,134 @@
+---
+title: "Python Crash Course: Day 2"
+author: "Danielle Brantley"
+date: "2024-04-23"
+categories: [python]
+---
+
+Chapter 2 of Python Crash Course looks at variables and data types.
+
+## Variables
+
+A variable acts like a labeled container that stores data in a computer's memory. Every variable is connected to a value, which is the information associated with that variable. In the example below, the variable is *message* and the value is the *"Hello Python World!"* text.
+
+![](images/hello.png)
+
+In Python, you can change the value of the variable in a program at any time and Python will always keep track of its current value. Below I added a second message and you see that two lines of output were printed.
+
+![](images/hello_world.png)
+
+There are rules to naming and using variables which are:
+
+-   Variable names can contain numbers, letters, and underscores. They can start with a letter or an underscore but they cannot start with a number.
+
+-   Spaces are not allowed in variable names, but underscores can be used to separate words in variable names.
+
+-   Avoid using Python keywords and function names as variable names.
+
+-   Be careful when using lowercase letter *"l"* and the uppercase *"O"* because they can be confused with the numbers 1 and 0.
+
+-   Variable names should be short and descriptive.
+
+-   Variable names should be lowercase when starting out. Though you will not get errors when using uppercase letters, uppercase letters in variable names have special meanings.
+
+-   Variable names that use all capital letters are called constants. A constant is a variable whose value stays the same throughout the life of the program.
+
+A *traceback* is a record of where the Python interpreter ran into trouble when trying to execute a program. An example of a traceback is shown below. It tells me that an error has occurred, where in the code the error has occurred and the type of error that occurred. In this case, it's a name error because the variable being printed *mesage*, has not been defined. A name error occurs when a variable's name has been misspelled (which is the case here) or variable's value has not been set.
+
+![](images/hello_world_error.png)
+
+Another way to initialize variables is through multiple assignment like so:
+
+![](images/multiple_assignment.png)
+
+This shortens your program making it easier to read.
+
+## Strings
+
+A *string* is a series of characters and anything inside quotes is considered a string. Single or double quotes can be used around strings. These options allow you to use use quotes and apostrophes within your strings. Below are examples of strings.
+
+``` python
+"My name is Danielle Brantley."
+'My name is Danielle Brantley.'
+'She said, "I love Python!"'
+"My cousin 'Stephon' is named after his father, not the basketball player."
+"My sister's job wants her to learn programming."
+```
+
+Notice the last string where I used an apostrophe inside double quotes. This is the correct way way to use a set of quotes. If I used the apostrophe inside of single quotes like below, I would get what is known as a *syntax error*. This error occurs when Python doesn't recognize a section of your program as valid Python code. Python interprets everything between the first single quote and the apostrophe as code and attempts to interpret the rest of the string as code, which causes the error.
+
+![](images/syntax_error.png)
+
+We can change the case of words in a string using a method. A method is an action that Python can perform on a piece of data.
+
+Below we have the following methods:
+
+-   .title() - begins each word in a string with a capital letter.
+
+-   .upper() - changes every letter in a string to all uppercase letters.
+
+-   .lower() - changes every letter in a string to lowercase letters.
+
+![](images/player.png)
+
+To use variables inside of strings, we use what are called f-strings. The *f* is for format because Python formats the string by replacing the name of any variable in braces with its value.
+
+To add whitespace to strings, we use the following:
+
+-   \t - adds a tab to a string.
+
+-   \n - adds a newline in a string.
+
+![](images/whitespace.png)
+
+Python treats 'python', 'python ' and ' python' as different strings. We use the .rstrip() method to remove whitespace from the right side of a string and .lstrip() method to remove whitespace from the left side of a string. We use .strip() to remove white space from both sides of a string. These strippings functions are useful for cleaning up user input before it's stored in a program.
+
+![](images/strip_whitespace.png)
+
+Another common task with strings is to remove a prefix using .removeprefix() like so:
+
+![](images/prefix.png)
+
+## Numbers
+
+We can add, subtract, multiply and divide integers in Python.
+
+![](images/operations.png)
+
+We use two multiplication symbols to represent exponents.
+
+![](images/exponents.png)
+
+We can also do order of operations in Python.
+
+![](images/order_of_operations.png)
+
+We also have the modulus operator (%) that returns the remainder of the division. In the example below we have 20 % 3. This means that 20 / 3 returns a remainder of 2.
+
+![](images/modulo.png)
+
+A *float* is any number with a decimal point. For the most part, they behave how you would expect. However, sometimes as you see with the last two lines, you can an arbitrary number of decimal places in your answer.
+
+![](images/floats.png)
+
+Python defaults to a float in any operation that uses a float, even if the output is a whole number.
+
+![](images/more_floats.png)
+
+When writing large numbers, you use underscores in place of commas. Python ignores the underscores when printing the number.
+
+![](images/underscore_numbers.png)
+
+## Comments
+
+Comments in Python are indicated using the hash mark (#). Comments are extremely useful and it's good practice to use meaningful comments within your program to describe you approach to the problem you're solving.
+
+![](images/comments.png)
+
+## Zen of Python
+
+Lastly, I'll leave you with the Zen of Python which is the Python community's philosophy.
+
+![](images/zenofpython.png)
+
+Moving on to Chapter 3!
