@@ -23,4 +23,4 @@ I could also run this program from the terminal as shown below. First using the 
 
 ![](images/confirmation3.png)
 
-That was all for this chapter! I'm looking forward to chapter 2 where I'll start to complete the exercises!
+That was all for this chapter! I'm looking forward to chapter 2!
