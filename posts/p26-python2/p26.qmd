@@ -31,7 +31,7 @@ There are rules to naming and using variables which are:
 
 -   Variable names should be lowercase when starting out. Though you will not get errors when using uppercase letters, uppercase letters in variable names have special meanings.
 
--   Variable names that use all capital letters are called constants. A constant is a variable whose value stays the same throughout the life of the program.
+-   Variable names that use all capital letters are called constants. A *constant* is a variable whose value stays the same throughout the life of the program.
 
 A *traceback* is a record of where the Python interpreter ran into trouble when trying to execute a program. An example of a traceback is shown below. It tells me that an error has occurred, where in the code the error has occurred and the type of error that occurred. In this case, it's a name error because the variable being printed *mesage*, has not been defined. A name error occurs when a variable's name has been misspelled (which is the case here) or variable's value has not been set.
 
@@ -75,9 +75,9 @@ To use variables inside of strings, we use what are called f-strings. The *f* is
 
 To add whitespace to strings, we use the following:
 
--   \t - adds a tab to a string.
+-   \\t: adds a tab to a string.
 
--   \n - adds a newline in a string.
+-   \\n: adds a newline in a string.
 
 ![](images/whitespace.png)
 
