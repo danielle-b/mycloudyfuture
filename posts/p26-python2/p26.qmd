@@ -39,7 +39,7 @@ A *traceback* is a record of where the Python interpreter ran into trouble when 
 
 Another way to initialize variables is through multiple assignment like so:
 
-![](images/multiple_assignment.png)
+![](images/multiple_assignment.png){width="562"}
 
 This shortens your program making it easier to read.
 
@@ -57,7 +57,7 @@ A *string* is a series of characters and anything inside quotes is considered a 
 
 Notice the last string where I used an apostrophe inside double quotes. This is the correct way way to use a set of quotes. If I used the apostrophe inside of single quotes like below, I would get what is known as a *syntax error*. This error occurs when Python doesn't recognize a section of your program as valid Python code. Python interprets everything between the first single quote and the apostrophe as code and attempts to interpret the rest of the string as code, which causes the error.
 
-![](images/syntax_error.png)
+![](images/syntax_error.png){width="569"}
 
 We can change the case of words in a string using a method. A method is an action that Python can perform on a piece of data.
 
@@ -69,7 +69,7 @@ Below we have the following methods:
 
 -   .lower() - changes every letter in a string to lowercase letters.
 
-![](images/player.png)
+![](images/player.png){width="557"}
 
 To use variables inside of strings, we use what are called f-strings. The *f* is for format because Python formats the string by replacing the name of any variable in braces with its value.
 
@@ -79,56 +79,56 @@ To add whitespace to strings, we use the following:
 
 -   \\n: adds a newline in a string.
 
-![](images/whitespace.png)
+![](images/whitespace.png){width="616"}
 
 Python treats 'python', 'python ' and ' python' as different strings. We use the .rstrip() method to remove whitespace from the right side of a string and .lstrip() method to remove whitespace from the left side of a string. We use .strip() to remove white space from both sides of a string. These strippings functions are useful for cleaning up user input before it's stored in a program.
 
-![](images/strip_whitespace.png)
+![](images/strip_whitespace.png){width="615"}
 
 Another common task with strings is to remove a prefix using .removeprefix() like so:
 
-![](images/prefix.png)
+![](images/prefix.png){width="574"}
 
 ## Numbers
 
 We can add, subtract, multiply and divide integers in Python.
 
-![](images/operations.png)
+![](images/operations.png){width="558"}
 
 We use two multiplication symbols to represent exponents.
 
-![](images/exponents.png)
+![](images/exponents.png){width="522"}
 
 We can also do order of operations in Python.
 
-![](images/order_of_operations.png)
+![](images/order_of_operations.png){width="522"}
 
 We also have the modulus operator (%) that returns the remainder of the division. In the example below we have 20 % 3. This means that 20 / 3 returns a remainder of 2.
 
-![](images/modulo.png)
+![](images/modulo.png){width="552"}
 
 A *float* is any number with a decimal point. For the most part, they behave how you would expect. However, sometimes as you see with the last two lines, you can an arbitrary number of decimal places in your answer.
 
-![](images/floats.png)
+![](images/floats.png){width="581"}
 
 Python defaults to a float in any operation that uses a float, even if the output is a whole number.
 
-![](images/more_floats.png)
+![](images/more_floats.png){width="583"}
 
 When writing large numbers, you use underscores in place of commas. Python ignores the underscores when printing the number.
 
-![](images/underscore_numbers.png)
+![](images/underscore_numbers.png){width="612"}
 
 ## Comments
 
 Comments in Python are indicated using the hash mark (#). Comments are extremely useful and it's good practice to use meaningful comments within your program to describe you approach to the problem you're solving.
 
-![](images/comments.png)
+![](images/comments.png){width="531"}
 
 ## Zen of Python
 
 Lastly, I'll leave you with the Zen of Python which is the Python community's philosophy.
 
-![](images/zenofpython.png)
+![](images/zenofpython.png){width="583"}
 
 Moving on to Chapter 3!

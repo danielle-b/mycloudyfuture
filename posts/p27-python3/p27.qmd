@@ -1,0 +1,86 @@
+---
+title: "Python Crash Course: Day 3"
+author: "Danielle Brantley"
+date: "2024-04-24"
+categories: [python]
+---
+
+Chapter 3 introduced me to lists.
+
+A *list* is a collection of items in a particular order. In Python, square brackets\[ \], indicate a list and each item in the list is separated by a comma. Below is an example of a list. When I print the list, Python returns the list.
+
+![](images/initialize_list.png){width="507"}
+
+Python considers the first element in a list to be at position 0, not position 1. The second element on the list is at position 1, the third element is at position 2 and so on.
+
+I can access an element of a list by telling Python its position or index of the element desired. To access an element of a list, I write the name of the list followed by the index of the item enclosed with square brackets.
+
+![](images/access_list.png){width="520"}
+
+The string methods mentioned previously can also be used on lists.
+
+![](images/lower.png){width="476"}
+
+To access the last item of a list, I would ask for the item at index -1. If I wanted the second item from the end of a list, I would use index -2 and to access the third item from the end of the list, I would use index -3 and so on. This syntax is useful because often times you want to access the last items of a list without knowing how long the list is.
+
+![](images/last.png){width="500"}
+
+I can compose a sentence using individual values from a list like so:
+
+![](images/use-value-in-list.png){width="464"}
+
+### Modifying, Adding and Removing Elements
+
+Let's say I want to replace Spotify with YouTube Music in my list. I would use the name of my list followed by the index of the item I want to change and provide a new value I want the item to have. Below I made the change switching out Spotify for YouTube Music.
+
+![](images/modify_list.png){width="469"}
+
+The simplest way to add an element to a list is to append the item to the list. This adds the item to the end of the list. Here the *append()* method is used to add the item.
+
+![](images/add.png){width="484"}
+
+Another way to add an element to a list is to use the *insert()* method. This method adds a new element to *any position* in a list. To add the item using insert(), I specify the index of the new element and the value of the new item.
+
+![](images/insert.png){width="514"}
+
+To remove an item off the list we use the *del* statement. I can remove an item from any position using del. After the del statement is used, the value that was removed is no longer accessible.
+
+![](images/delete.png){width="516"}
+
+If I want to still have access to an item I removed from the list, I would use the *pop()* method. This method removes the last item in a list, but lets me work with the item after removing it. A common use case for the pop() method is in web applications where you want to remove a user from your active list and place them in a list of inactive users.
+
+![](images/pop.png){width="530"}
+
+I can use pop() to remove an item from any position in a list by including the index of the item I want to remove.
+
+![](images/pop_1.png){width="585"}
+
+I can use the *remove()* method to remove an item from a list if I know the value of the item I want to remove. I can use this method to work with a value that's being removed from a list. It's important to note that the remove() method only deletes the first occurrence of the value that is specified.
+
+![](images/remove.png){width="543"}
+
+![](images/remove_1.png){width="558"}
+
+### Organizing a List
+
+The *sort()* method is used to sort a list permanently. The *reverse=True* argument can be passed to the sort() method to sort the list in reverse-alphabetical order.
+
+![](images/sort.png)
+
+![](images/reverse.png){width="589"}
+
+The *sorted()* method is used to sort a list temporarily. The *reverse=True* argument can also be passed to the sorted() method to sort the list in reverse-alphabetical order.
+
+![](images/sorted.png){width="553"}
+
+The *reverse()* method is used to reverse the order of a list. This method changes the order of the list permanently but applying the method to the same list a second time reverts the list back to its original order.
+
+![](images/reverse_1.png){width="590"}
+
+The *len()* method is used to find the length of a list.
+
+![](images/length.png){width="553"}
+
+A common mistake when working with lists is asking Python to print the index of an item that doesn't exist. This is called an *index error* and it means that Python cannot find an item at the index that was requested. It is best to use index -1 to access the last item on a list because it works, even if the size of the list has changed.
+
+Chapter 3 was a great refresher on lists! Moving on to chapter 4!
