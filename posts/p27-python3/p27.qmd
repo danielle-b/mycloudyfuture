@@ -1,11 +1,11 @@
 ---
 title: "Python Crash Course: Day 3"
 author: "Danielle Brantley"
-date: "2024-04-24"
+date: "2024-04-28"
 categories: [python]
 ---
 
-Chapter 3 introduced me to lists.
+Chapter 3 re-introduced me to lists.
 
 A *list* is a collection of items in a particular order. In Python, square brackets\[ \], indicate a list and each item in the list is separated by a comma. Below is an example of a list. When I print the list, Python returns the list.
 

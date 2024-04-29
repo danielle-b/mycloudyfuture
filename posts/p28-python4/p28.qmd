@@ -1,0 +1,172 @@
+---
+title: "Python Crash Course: Day 4"
+author: "Danielle Brantley"
+date: "2024-04-29"
+categories: [python]
+---
+
+In chapter 4, I learned about looping through lists. This chapter focused on the *for loop*, which is used for performing the same action on every item in a list. For loops are useful for automating repetitive tasks.
+
+An example of a for loop in Python is shown below.
+
+First, a list is defined. Second, a for loop is defined and this line tells Python to pull a name from the list *fruits* and associate it with the variable *fruit*. Next, we tell Python to print the name that has just been assigned to fruit. It's helpful to think of this way: For every fruit in the list of fruits, print the fruit's name.
+
+![](images/for_loop.png){width="601"}
+
+Let's break it down further.
+
+Python reads the first line of the loop:
+
+``` python
+for fruit in fruits:
+```
+
+This line tells Python to retrieve the first value from the list fruits and associate it with the variable fruit. The first value is 'watermelon'. Python reads the next line:
+
+``` python
+print(fruit)
+```
+
+This line prints the current value for fruit, which is 'watermelon'. Because there are more values in the list, Python returns to the first line of the loop. It retrieves the next value 'mango', associates it with the variable fruit, and prints the current value for fruit ("mango") before returning to the first line of the loop. It repeats this process until there are no more values in the list. When there are no more values to loop through, Python ends the program.
+
+I can do just about anything with each item in a for loop. The example below builds on the previous example by adding by printing a message about each fruit. The first time through the loop the value is 'watermelon', so Python starts the first message with 'Watermelon'. The second time through the loop the value is 'mango' so Python starts the second message with 'Mango'. This process is repeated until we've reached the end of the list.
+
+![](images/more_for_loop.png){width="607"}
+
+![](images/another_loop.png){width="542"}
+
+Taking a look at these for loops above notice that our print statements are indented. We refer this statements as being *inside the loop*. If I want a statement to be executed for each value in a list, the statement must be inside the for loop.
+
+Usually once a for loop stops executing, you'll want to summarize a block of output or work on another part of the program. Any line of code after the for loop that is not indented is only executed once without repetition. As shown below, the first two print statements are inside the loop so they are repeatedly executed for each item in my list. The last print statement is not indented, meaning that it is *outside the loop* and therefore is only executed once.
+
+![](images/for_loop_1.png){width="571"}
+
+### Indentation Errors
+
+The next section of the book talks about indentation errors which include:
+
+-   Forgetting to indent
+
+    -   Always indent the line immediately after the for loop.
+
+-   Forgetting to indent additional lines
+
+    -   If you want additional lines to be included in your for loop, these lines must be indented as well. Otherwise your code will produce a *logical error*, meaning that the code is valid but the code doesn't produce the desired result because there is a problem in its logic.
+
+-   Indenting unnecessarily
+
+    -   Python will warn you about unexpected indentation.
+
+-   Indenting unnecessarily after a for loop
+
+    -   Lines after the for loop that you only want to execute once should not be indented. This also produced a logical error
+
+-   Forgetting a colon
+
+    -   A colon should be included after every *for* statement.
+
+### Numerical Lists
+
+The *range()* function in Python allows us to generate a series of numbers.
+
+![](images/range.png){width="551"}
+
+Notice how range() prints numbers 1 through 9. This is because Python starts counting at the first value you give it and it stops when it reaches the second value you provide. In this case, because it stops when it reaches 10, the output does not contain 10.
+
+I could also pass only one argument into range() and it will start the sequence of numbers at 0.
+
+![](images/range_1.png){width="566"}
+
+I could use range() to make a list of numbers. I could use list() to covert the same set of numbers into a list.
+
+![](images/range_2.png)
+
+The range() function can tell Python to skip numbers in a given range. If I pass a third argument to range(), this is called the step argument. The step argument is the increment between numbers in a sequence. In the example below, the sequence starts at 1, stops at 10, and increments by 2.
+
+![](images/range_3.png)
+
+I could even create a list of squares at shown below. First, I create an empty list called squares. Second, I tell Python to loop through each value from 1 to 10 using the range() function. Then, the value is raised to the second power (two asterisks represent exponents) and assigned to a variable called square. Next, each new value of square is appended to the list squares. Finally, the list of squares is printed.
+
+![](images/range_4.png){width="612"}
+
+In the squares example, we used three lines of code to generate a list of squares. This could also be accomplished using just one line of code by using a list comprehension. A list comprehension combines the *for loop* and the creation of new elements into one line and automatically appends each new element.
+
+![](images/list_comprehension.png){width="595"}
+
+We could use Python to find the minimum, maximum, and sum of a list of numbers like so:
+
+![](images/stats.png){width="581"}
+
+### Working with Part of a List
+
+In Python, I could also work with a specific group of items in a list called a slice. To make a slice, I specify the index of the first and last elements I want to work with. An example of this shown below.
+
+![](images/slicing.png){width="589"}
+
+If I wanted the second, third and fourth elements of my list, I would start at index 1 and end it at index 4.
+
+![](images/slice_1.png){width="582"}
+
+I could choose to omit the first index. The print statement below refers to all elements from the beginning of the sequence up to, but not including, the element at index 4.
+
+![](images/slice_2.png){width="563"}
+
+If I want all the items from index 2 through the last item , I can start with index 2 and omit the second index.
+
+![](images/slice_3.png){width="550"}
+
+I could use a negative index to output any slice from the end of the list. If I want to output the last three students, I used the slice students\[-3:\].
+
+![](images/slice_4.png){width="558" height="87"}
+
+I could also use a slice in a for loop if I want to loop through a subset of the elements of the list.
+
+![](images/slice_5.png){width="581"}
+
+### Copying a List
+
+I can copy a list by omitting the first index and the second index leaving me with \[:\]. The example shows me making a list of my favorite magazines and making a separate list of my friend's favorite magazines.
+
+![](images/copy_list.png){width="552"}
+
+To prove that these are separate lists, I can use the append() method to add a new magazine and show that each list keeps track of the appropriate person's favorite magazines.
+
+![](images/copy_list_1.png){width="537"}
+
+### Tuples
+
+While lists are great for storing a collection of items that can change throughout the life of a program, it is sometimes best to create a list of items that cannot be changed. That's where tuples come in. Tuples are lists whose contents cannot be changed. Python refers to values that cannot change as immutable and tuples are considered an immutable list.
+
+A tuple looks just like a list except we use parentheses to define them instead of square brackets.
+
+![](images/tuple.png){width="544"}
+
+If I try to change the first value of my tuple to 22, Python returns a type error. This is because I tried to change the tuple and it cannot be done because tuples do not change.
+
+![](images/tuple_1.png)
+
+Just like a list, I can loop through a tuple.
+
+![](images/tuple_2.png){width="537"}
+
+Although I cannot modify a tuple, I can write over a tuple.
+
+![](images/tuple_3.png){width="579"}
+
+### Styling Code
+
+The last part of this chapter goes over styling my code. Python's style guide is called PEP 8. PEP stands for Python Enhancement Proposal and it instructs Python programmers on how to structure their code. The PEP guide can be found [here](https://peps.python.org/pep-0008/){target="_blank"}. Some of the highlights from this section include:
+
+-   Indentation
+
+    -   PEP 8 recommends four spaces per indentation level.
+
+-   Line Length
+
+    -   Each line of code should be less than 80 characters.
+
+-   Blank Lines
+
+    -   To group parts of your program visually, use blank lines.
+
+This was a lot but I now have a better understanding of lists! Moving on to chapter 5!
