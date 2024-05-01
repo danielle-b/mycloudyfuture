@@ -65,7 +65,11 @@ For this example, I am working on an ice cream sundae and Python displays a mess
 
 ![](images/check_1.png){width="603"}
 
-I can also work with multiple lists. In this next example, I defined two lists: a list of available toppings for the sundae and a list of requested toppings that the user has requested. Each item in requested_toppings is checked against the list of available_toppings before being added to the sundae. If a value in the requested_toppings list matches a value in the available_toppings list, we add it to the sundae. Otherwise, we tell the user that we don't have that topping.
+I can also work with multiple lists.
+
+In this next example, I defined two lists: a list of available toppings for the sundae and a list of requested toppings that the user has requested.
+
+Each item in requested_toppings is checked against the list of available_toppings before being added to the sundae. If a value in the requested_toppings list matches a value in the available_toppings list, we add it to the sundae. Otherwise, we tell the user that we don't have that topping.
 
 ![](images/check_2.png){width="635"}
 
