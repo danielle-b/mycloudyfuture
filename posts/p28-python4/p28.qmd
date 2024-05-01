@@ -11,7 +11,7 @@ An example of a for loop in Python is shown below.
 
 First, a list is defined. Second, a for loop is defined and this line tells Python to pull a name from the list *fruits* and associate it with the variable *fruit*. Next, we tell Python to print the name that has just been assigned to fruit. It's helpful to think of this way: For every fruit in the list of fruits, print the fruit's name.
 
-![](images/for_loop.png){width="601"}
+![](images/for_loop.png){width="650"}
 
 Let's break it down further.
 
@@ -33,7 +33,7 @@ I can do just about anything with each item in a for loop. The example below bui
 
 ![](images/more_for_loop.png){width="607"}
 
-![](images/another_loop.png){width="542"}
+![](images/another_loop.png){width="620"}
 
 Taking a look at these for loops above notice that our print statements are indented. We refer this statements as being *inside the loop*. If I want a statement to be executed for each value in a list, the statement must be inside the for loop.
 
@@ -69,13 +69,13 @@ The next section of the book talks about indentation errors which include:
 
 The *range()* function in Python allows us to generate a series of numbers.
 
-![](images/range.png){width="551"}
+![](images/range.png){width="603"}
 
 Notice how range() prints numbers 1 through 9. This is because Python starts counting at the first value you give it and it stops when it reaches the second value you provide. In this case, because it stops when it reaches 10, the output does not contain 10.
 
 I could also pass only one argument into range() and it will start the sequence of numbers at 0.
 
-![](images/range_1.png){width="566"}
+![](images/range_1.png){width="599"}
 
 I could use range() to make a list of numbers. I could use list() to covert the same set of numbers into a list.
 
@@ -87,15 +87,15 @@ The range() function can tell Python to skip numbers in a given range. If I pass
 
 I could even create a list of squares at shown below. First, I create an empty list called squares. Second, I tell Python to loop through each value from 1 to 10 using the range() function. Then, the value is raised to the second power (two asterisks represent exponents) and assigned to a variable called square. Next, each new value of square is appended to the list squares. Finally, the list of squares is printed.
 
-![](images/range_4.png){width="612"}
+![](images/range_4.png){width="600"}
 
 In the squares example, we used three lines of code to generate a list of squares. This could also be accomplished using just one line of code by using a list comprehension. A list comprehension combines the *for loop* and the creation of new elements into one line and automatically appends each new element.
 
-![](images/list_comprehension.png){width="595"}
+![](images/list_comprehension.png){width="623"}
 
 We could use Python to find the minimum, maximum, and sum of a list of numbers like so:
 
-![](images/stats.png){width="581"}
+![](images/stats.png){width="613"}
 
 ### Working with Part of a List
 
@@ -117,7 +117,7 @@ If I want all the items from index 2 through the last item , I can start with in
 
 I could use a negative index to output any slice from the end of the list. If I want to output the last three students, I used the slice students\[-3:\].
 
-![](images/slice_4.png){width="558" height="87"}
+![](images/slice_4.png){width="563"}
 
 I could also use a slice in a for loop if I want to loop through a subset of the elements of the list.
 

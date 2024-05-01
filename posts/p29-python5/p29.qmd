@@ -1,0 +1,72 @@
+---
+title: "Python Crash Course: Day 5"
+author: "Danielle Brantley"
+date: "2024-04-30"
+categories: [python]
+---
+
+Chapter 5 talks about conditionals. I was re-introduced to the concepts of writing if statements in Python.
+
+A *conditional test* is an expression that can be evaluated as *True* or *False*. Python uses True or False to decide whether the code in an if statement should be executed. If a conditional test evaluates to True, Python executes the code. If a conditional test evaluates to False, Python ignores the code following the if statement.
+
+Conditional tests usually compare the current value to a variable to a specific value of interest. The simplest conditional test checks for equality.
+
+The code below sets the value of store to 'Target' using a single equal sign. The next line checks whether the value of store is 'Target' by using the double equal sign (==), also called the *equality operator.* The equality operator returns True if the values on the left and right side of the operator match and returns False if they don't match.
+
+![](images/equality.png){width="497"}
+
+![](images/equality_1.png){width="480"}
+
+An important note is that testing for equality is case-sensitive in Python. In other words, 'target' and 'Target' are not considered equal.
+
+I can also check for inequality using the inequality operator (!=).
+
+![](images/inequality.png){width="521"}
+
+I can include various mathematical operations in my conditional statements such as less than, less than or equal to, greater than, greater than or equal to.
+
+![](images/less_than.png){width="508"}
+
+![](images/greater_than.png){width="511"}
+
+I can use and/or to check multiple conditions at the same time. The keyword *and* combines conditional tests. If each test passes, the expression evaluates to True. If either test fails or if both tests fail, the expression evaluates to False. With the 'or' keyword, the expression evaluates to True when either or both tests pass. If both tests fail, the expression evaluates to False.
+
+![](images/multiple_conditions.png){width="446"}
+
+To check whether a particular value is in a list, we use the keyword *in*. The keyword *not* is used to check whether a value is not in a list.
+
+![](images/in_keyword.png){width="507"}
+
+![](images/not_keyword.png){width="507"}
+
+### If Statements
+
+The simplest if statement has one test and one action as shown below.
+
+![](images/if_statement.png){width="468"}
+
+An if-else statement is used to take one action when a conditional test passes and a different action in all other cases.
+
+![](images/if_else_statement.png){width="599"}
+
+If I need to test and evaluate more than two possible situations, I use the if-elif-else syntax. In the example below, the if-elif-else syntax is used to determines a person's ticket cost.
+
+![](images/elif.png){width="611"}
+
+Multiple elif blocks can be used in a program. For example, I used a second elif block to implement a discount for seniors. The code now checks to make sure a person is less than 65 before assigning them the full ticket price.
+
+![](images/elif_1.png)
+
+### Using if statements with Lists 
+
+I can combine if statements with lists. I check for special values that need to be treated differently than other values in a list.
+
+For this example, I am working on an ice cream sundae and Python displays a message whenever a topping is added to the sundae. It checks each topping before adding it to the sundae. The if statement checks if the person requested cherries and if so displays a message that explains why they can't have cherries.
+
+![](images/check_1.png){width="603"}
+
+I can also work with multiple lists. In this next example, I defined two lists: a list of available toppings for the sundae and a list of requested toppings that the user has requested. Each item in requested_toppings is checked against the list of available_toppings before being added to the sundae. If a value in the requested_toppings list matches a value in the available_toppings list, we add it to the sundae. Otherwise, we tell the user that we don't have that topping.
+
+![](images/check_2.png){width="635"}
+
+With that, that is the end of chapter 5! On to chapter 6!
