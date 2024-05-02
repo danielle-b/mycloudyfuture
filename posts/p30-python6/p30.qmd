@@ -1,0 +1,92 @@
+---
+title: "Python Crash Course: Day 6"
+author: "Danielle Brantley"
+date: "2024-05-01"
+categories: [python]
+---
+
+Chapter 6 was all about dictionaries. A *dictionary* in Python is a collection of key-value pairs. A *key-value* pair is a set of values associated with each other. Each key is connected to a value and I can use a key to access the value associated with that key. A key's value can be a number, a string, a list, or another dictionary. Any object that can be created in Python can be used as a value in a dictionary. A dictionary is defined using braces ( {} ) with a series of key-value pairs inside the braces.
+
+An example of a dictionary is shown below. The dictionary *my_friend* stores my friend's name, age, and country.
+
+![](images/dict.png){width="618"}
+
+### Accessing Values in a Dictionary
+
+To access the value associated with a key, I gave the name of the dictionary and place the key inside of square brackets.
+
+![](images/dict_1.png){width="647"}
+
+![](images/dict_2.png){width="561"}
+
+I can add new key-value pairs to a dictionary at any time. I added two new key-value pairs by giving the name of the dictionary followed by the new key in square brackets along with a new value.
+
+It's important to note that dictionaries retain the order in which they were defined.
+
+![](images/new_key-values.png)
+
+I can modify values in a dictionary by giving the name of the dictionary with the key in square brackets and then the new value I want associated with that key. In the code below, I changed the age from 34 to 42.
+
+![](images/modify_dict.png){width="572"}
+
+Using the keyword *del*, I can remove key-value pairs. In this block of code, I removed the key *'country'* from my dictionary. Note that the deletion of a key-value pair is permanent.
+
+![](images/remove_key-value.png){width="608"}
+
+Another quick note is although my previous examples involve storing different kinds of information about one object, that a dictionary can be created to store one kind of information about many objects. An example of this is shown below.
+
+Note the way I wrote the dictionary. Breaking a dictionary into several lines is a common way to write dictionaries in Python.
+
+![](images/similar.png){width="635"}
+
+The *get()* method can be used to access values in a dictionary. This is best used if there's a chance the key might not exist. The get() method requires a key as a first argument and as a second optional argument, the value to be returned if the key doesn't exist.
+
+![](images/get.png){width="628" height="173"}
+
+### Looping Through a Dictionary
+
+I can loop though a dictionary in a few ways.
+
+First, I can loop through all the key-value pairs using the *items()* method by creating names for the two variables that will hold the key and value in each key-value pair.
+
+![](images/loop_key-value.png){width="669"}
+
+I could loop through all the keys in the dictionary using the *keys()* method.
+
+![](images/loop_keys.png)
+
+Looping through the keys is the default behavior when looping through a dictionary. This code would be would have the same output if I wrote:
+
+``` Python
+for name in favorite_subjects:
+```
+
+I could also loop through a dictionary's keys in a particular order using the *sorted()* method.
+
+![](images/loop_keys_1.png)
+
+I can also loop through all the values in a dictionary using the *values()* method to return my values without their keys.
+
+![](images/loop_values.png){width="594"}
+
+### Nesting
+
+Nesting refers to placing code structures within other code structures. It's like placing a box inside of box. In Python, we can store multiple dictionaries in a list, a list of items in a dictionary or a dictionary inside a dictionary.
+
+Here I have a list of dictionaries. I created three dictionaries, representing each friend. I stored each of these dictionaries in a list called *friends* and looped through the list to print out each friend.
+
+![](images/list_dictionaries.png){width="620"}
+
+I could create lists inside a dictionary. In the code below, the value associated with each name is now a list. Some people have more than one favorite subject. When I looped through the dictionary, I used the variable name subjects to hold each value from the dictionary because each value will be a list. Inside the main dictionary loop, I created another for loop to run through each person's list of favorite subjects.
+
+![](images/list_dictionary.png){width="618"}
+
+I can also nest a dictionary inside of a dictionary. I defined a dictionary called *actors* with two keys, *'kpalmer'* and *'irae'*. The value associated with each key is a dictionary containing the actor's first name, last name and their hometown. I loop through the *actors* dictionary. Each key was assigned to the variable *username* and the dictionary associated with each username is assigned to the variable *info*. Once inside the main dictionary loop, I printed the username.
+
+I started accessing the inner dictionary. The *info* variable contains three keys: 'first', 'last' and 'hometown'. I used each key to generate a full name and hometown for each person and print a summary about what I know about each actor.
+
+![](images/dict_dict.png){width="643"}
+
+It is suggested to not nest lists and dictionaries too deeply as it can made code too complex.
+
+This was a great refresher on dictionaries! Looking forward to chapter 7!
