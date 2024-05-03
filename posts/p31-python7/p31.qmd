@@ -1,0 +1,66 @@
+---
+title: "Python Crash Course: Day 7"
+author: "Danielle Brantley"
+date: "2024-05-02"
+categories: [python]
+---
+
+In chapter 7, I reviewed the input function and while loops.
+
+### The Input Function
+
+The *input()* function is used to pause a program and it waits for the the user to enter some text. It tske sone arguement, which is the prompt that I want to display to the user. The program below asks the user for their name and then prints the response. I added a space and the end of the prompt to separate the prompt from the user's response.
+
+![](images/python_input.png)
+
+The input() function interprets everything as a string. This can be an issue if you want a numerical input to be interpreted as an integer to use later on. This issue is resolved using the int() function, which converts the input string to a numerical value.
+
+![](images/int.png){width="616"}
+
+### While Loops
+
+Previously, I went over a *for loop* which takes a collection of items and executes a block of code once for each item in the collection. However, a *while loop* runs while a certain condition is true.
+
+The code block below shows an example of a while loop.
+
+In the first line, I start by counting from 1 by assigning a variable called *number* to the value 1. The while loop is set to keep running as long as the value of *number* is less than or equal to 10. The code inside the loop prints the value of *number* and the increments that value by1.
+
+The loop is repeated as long as the condition *number \<= 10* is true. The value 1 is less than 10, so Python prints 1 and adds 1, so the new value of *number* is 2. 2 is less than 10, so Python prints 2 and adds 1, so the new value of *number* is 3 and so on. Once the value of *number* is greater than 10, the loop stops running and the program ends.
+
+![](images/while_loop.png){width="581"}
+
+The code block below shows a program where I allow the user to choose when to quit the program.
+
+First, I defined a prompt that give users two options: enter a message or enter 'quit'. Then, I defined *message* as an empty string so Python has something to check when it reaches the while loop. Without this empty string, the program is unable to continue.
+
+The first time through the loop, *message* is just an empty string so Python enter the loop. The prompt is then displayed, waiting for the user to enter their input. Whatever they entered is assigned to *message* and Python prints it out. Python reevaluates the condition in the *while* statement. As long as the user has not entered 'quit', the prompt is displayed again and Python waits for more input. When the user enters 'quit' the loop stops executing and the program ends.
+
+![](images/repeat.png){width="627"}
+
+The *break* statement is used to exit a loop. The example below is a while loop that prompts the user for their name. If the user's response equals 'Rihanna', the break statement runs, causing Python to exit the loop. After the Python exits the loop, it prints 'Who's that chick'!
+
+![](images/break.png){width="619"}
+
+The *continue* statement is used to return to the beginning of a loop, based on the result of a conditional test.
+
+First, I set the variable *num* to 0. Because 0 is less than 15, Python enters the *while* loop. Once inside the loop, I increment the count by 1 so the current *num* is set to 1. The if statement checks the modulo of *num* and 3. If the modulo is 0 (the value of *num* is divisible by 3), the continue statement tells Python to ignore the rest of the loop and return to the beginning. If *num* is not divisible by 3, the rest of the loop is executed and Python prints the the value of *num*.
+
+![](images/continue.png){width="628"}
+
+### Using a While Loop with Lists and Dictionaries
+
+If I want to modify a loop as I work through it, I would want to use a while loop. Using while loops with lists and dictionaries allows me to collect, store, and organize lots of input to use later.
+
+Let's say I have a list of active members of an email list that I want to move to inactive.
+
+I begin with a list of active members (sarah, john, katy) and an empty list to hold inactive members. The while loop runs as long as the *active_members* list is not empty. In this loop, I remove each member from the active_members list using the pop() method. I verify each user before adding them to the *inactive_members* list using the append() method. As the *active_members* list shrinks, the *inactive_members* list grows. When the list of active members is empty, the loop stops and the list of inactive members is printed.
+
+![](images/moving_items.png){width="596"}
+
+Finally, the example below uses a while loop with a dictionary.
+
+I started by defining an empty dictionary called favorite_subjects. Inside the while loop, I defined the key variable as an input and if the input entered equals 'quit', the loop stops executing, the program ends and the print statement is displayed. The value variable is also defined as an input, prompting the user to enter a value to associate with the key. The *format()* method is used to insert the value of the key variable into the prompt. The last line before the print statement adds a new key-value pair to the dictionary.
+
+![](images/while_loop_dict.png){width="664"}
+
+This marks the end of chapter 7. On to chapter 8!

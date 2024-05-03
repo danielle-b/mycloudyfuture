@@ -5,7 +5,7 @@ date: "2024-04-27"
 categories: [python]
 ---
 
-Chapter 2 of Python Crash Course looks at variables and data types.
+Chapter 2 of Python Crash Course looked at variables and data types.
 
 ## Variables
 
@@ -13,7 +13,7 @@ A variable acts like a labeled container that stores data in a computer's memory
 
 ![](images/hello.png)
 
-In Python, you can change the value of the variable in a program at any time and Python will always keep track of its current value. Below I added a second message and you see that two lines of output were printed.
+In Python, I can change the value of the variable in a program at any time and Python will always keep track of its current value. Below I added a second message and you see that two lines of output were printed.
 
 ![](images/hello_world.png)
 
@@ -81,7 +81,7 @@ To add whitespace to strings, we use the following:
 
 ![](images/whitespace.png){width="616"}
 
-Python treats 'python', 'python ' and ' python' as different strings. We use the .rstrip() method to remove whitespace from the right side of a string and .lstrip() method to remove whitespace from the left side of a string. We use .strip() to remove white space from both sides of a string. These strippings functions are useful for cleaning up user input before it's stored in a program.
+Python treats 'python', 'python ' and ' python' as different strings. I can use the .rstrip() method to remove whitespace from the right side of a string and .lstrip() method to remove whitespace from the left side of a string. We use .strip() to remove white space from both sides of a string. These stripping functions are useful for cleaning up user input before it's stored in a program.
 
 ![](images/strip_whitespace.png){width="615"}
 
@@ -103,7 +103,7 @@ We can also do order of operations in Python.
 
 ![](images/order_of_operations.png){width="522"}
 
-We also have the modulus operator (%) that returns the remainder of the division. In the example below we have 20 % 3. This means that 20 / 3 returns a remainder of 2.
+We also have the modulo operator (%) that returns the remainder of the division. In the example below, we have 20 % 3. This means that 20 / 3 returns a remainder of 2.
 
 ![](images/modulo.png){width="552"}
 
@@ -115,19 +115,19 @@ Python defaults to a float in any operation that uses a float, even if the outpu
 
 ![](images/more_floats.png){width="583"}
 
-When writing large numbers, you use underscores in place of commas. Python ignores the underscores when printing the number.
+When writing large numbers, I can use underscores in place of commas. Python ignores the underscores when printing the number.
 
 ![](images/underscore_numbers.png){width="612"}
 
 ## Comments
 
-Comments in Python are indicated using the hash mark (#). Comments are extremely useful and it's good practice to use meaningful comments within your program to describe you approach to the problem you're solving.
+Comments in Python are indicated using the hash mark (#). Comments are extremely useful and it's good practice to use meaningful comments within a program to describe you approach to the problem I'm solving.
 
 ![](images/comments.png){width="531"}
 
 ## Zen of Python
 
-Lastly, I'll leave you with the Zen of Python which is the Python community's philosophy.
+Lastly, I'll leave with the Zen of Python which is the Python community's philosophy.
 
 ![](images/zenofpython.png){width="583"}
 

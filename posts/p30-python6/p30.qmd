@@ -57,7 +57,7 @@ I could loop through all the keys in the dictionary using the *keys()* method.
 
 Looping through the keys is the default behavior when looping through a dictionary. This code would be would have the same output if I wrote:
 
-``` Python
+``` python
 for name in favorite_subjects:
 ```
 
