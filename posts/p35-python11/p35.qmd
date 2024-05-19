@@ -11,7 +11,7 @@ Throughout the chapter I used *pytest*, a library that helps write tests quickly
 
 I started by upgrading *pip*, a tool used to install third-party packages. Because pip helps install packages from external resources, it's updated often to address any potential security issues.
 
-It's best practice to use virtual environments when starting a Python project. A virtual environment isolates project dependencies, preventing conflicts with other projects on my system. The first line `python3 -m venv tests` installs a virtual environment with the name *tests*. The second line `source tests/bin/activate` activates the virtual environment.
+It's best practice to use virtual environments when starting a Python project. A virtual environment isolates project dependencies, preventing conflicts with other projects on my system. The first line `python3 -m venv testing` installs a virtual environment with the name *tests*. The second line `source testing/bin/activate` activates the virtual environment.
 
 ![](images/pip.png){width="704"}
 
