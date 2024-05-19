@@ -13,7 +13,7 @@ I started by upgrading *pip*, a tool used to install third-party packages. Becau
 
 It's best practice to use virtual environments when starting a Python project. A virtual environment isolates project dependencies, preventing conflicts with other projects on my system. The first line `python3 -m venv testing` installs a virtual environment with the name *testing*. The second line `source testing/bin/activate` activates the virtual environment.
 
-![](images/pip.png){width="704"}
+![](images/pip.png){width="1297"}
 
 After installing the virtual environment, I successfully installed *pytest*.
 
