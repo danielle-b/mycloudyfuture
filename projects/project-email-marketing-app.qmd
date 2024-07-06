@@ -1,0 +1,8 @@
+---
+title: "Serverless Email Marketing Application"
+---
+
+For this project, I built a serverless email marketing application. The goals of this project were to:
+
+1.  Learn more about AWS by actually building something.
+2.  Build a project using multiple AWS services to understand how all the services work together.
