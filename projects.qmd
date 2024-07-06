@@ -6,8 +6,6 @@ about:
 
 ## AWS
 
-Serverless Email Marketing Application
+\[Serverless Email Marketing Application\]
 
 In this project, I used Simple Email Service(SES), EventBridge, S3, Lambda, and Identity and Access Management(IAM) to build an email marketing application.
-
-## test 
