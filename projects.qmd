@@ -6,6 +6,6 @@ about:
 
 ## AWS
 
-[Serverless Email Marketing Application](projects/email-marketing-app.qmd)
+[My Personal Wiki](projects/wiki-server.qmd)
 
-In this project, I used Simple Email Service(SES), EventBridge, S3, Lambda, and Identity and Access Management(IAM) to build an email marketing application.
+In this project, I set up a personal wiki using Apache, PostgreSQL and EC2.

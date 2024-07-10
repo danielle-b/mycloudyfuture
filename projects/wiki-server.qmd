@@ -1,0 +1,33 @@
+---
+title: "Personal Wiki"
+---
+
+For this project, I set up a personal wiki using Apache and PostgreSQL:
+
+Before I began I needed two things:
+
+-   A Linux Server (I'll be using AWS EC2 service for this)
+
+-   SSH Access to my server
+
+My first step was to head over to my AWS Console and create an EC2 instance (a virtual server.
+
+![](images/ec2_instance_creation.png)
+
+When the key pair was created, it was downloaded and saved to a location on my machine.
+
+![](images/key-pair.png)
+
+![](images/settings.png)
+
+After completing all these screens, I launched my instance.
+
+I clicked "Connect" to connect to my instance using my SSH client. Here are the following steps for connecting using SSH:
+
+-   Open SSH client (I used iterm2)
+
+-   Locate the key-pair I created when I created my instance.
+
+-   Run the **chmod 400** command to ensure that they key is not publicly viewable.
+
+-   Connect my instance using its Public DNS.
