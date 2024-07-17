@@ -5,8 +5,8 @@ website:
   title: "My Cloudy Future"
   navbar:
     right:
-      - about.qmd
       - projects.qmd
+      - about.qmd
     tools:
       - icon: github
         href: https://github.com/danielle-b

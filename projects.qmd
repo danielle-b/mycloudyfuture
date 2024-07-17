@@ -6,6 +6,6 @@ about:
 
 ## AWS
 
-[My Personal Wiki](projects/wiki-server.qmd)
+[Project Coming Soon!](projects/cost-and-usage-report.qmd)
 
-In this project, I set up a personal wiki using Apache, PostgreSQL and EC2.
+
