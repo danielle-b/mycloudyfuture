@@ -4,8 +4,6 @@ about:
   template: jolla
 ---
 
-## AWS
-
-[Project Coming Soon!](projects/cost-and-usage-report.qmd)
+[Project Coming Soon!]
 
 
