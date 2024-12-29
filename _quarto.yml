@@ -19,7 +19,7 @@ website:
 
 format:
   html:
-    theme: quartz
+    theme: lumen
     css: styles.css
     
     
