@@ -17,7 +17,7 @@ This challenge has inspired me to want to do the following:
 
     -   I want to learn more about the services that I interacted with during this challenge, particularly EC2, IAM, Amazon VPC, and AWS VPN.
 
-    -   I'm interested in exploring other AWS services such as CloudWatch and Elastic Beanstalk.
+    -   I'm interested in exploring other AWS services such as CloudWatch.
 
 -   Begin learning about other areas in tech
 

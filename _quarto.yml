@@ -19,7 +19,7 @@ website:
 
 format:
   html:
-    theme: journal
+    theme: quartz
     css: styles.css
     
     
