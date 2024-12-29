@@ -9,7 +9,7 @@ about:
 
 Welcome! I'm Danielle Brantley!
 
-After years of being a data analyst, I’ve decided to face my fear that I've had for many years and enter the world of cloud, DevOps and Infrastructure. My goals are to learn Linux, cloud technologies, networking, programming (I'm learning Java now!),tools like Docker and more. My Cloudy Future is a space where I’ll share my projects, what I’m learning and give you insight into my skills. So here's to learning, growing and eventually securing a job in engineering.
+After years of being a data analyst, I’ve decided to learn Linux, networking, security, cloud and other tools necessary to become successful in cyber. My Cloudy Future is a space where I’ll share what I’m learning and give you insight into my skills. So here's to learning and growing every day! 
 
 In my free time, I’m listening to 90s Hip Hop and R&B, obsessing over podcasts or watching hair and makeup tutorials on YouTube. I’m also trying to keep with the latest trends in media.
 

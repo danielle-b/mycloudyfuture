@@ -17,11 +17,11 @@ This challenge has inspired me to want to do the following:
 
     -   I want to learn more about the services that I interacted with during this challenge, particularly EC2, IAM, Amazon VPC, and AWS VPN.
 
-    -   I'm interested in exploring other AWS services such as Lambda, CloudWatch, and Elastic Beanstalk. I'm especially interested in their Container services.
+    -   I'm interested in exploring other AWS services such as CloudWatch and Elastic Beanstalk.
 
 -   Begin learning about other areas in tech
 
-    -   During this challenge, I became very interested in learning more about networking and security. I created an account on TryHackMe and I will use this resource to learn a bit more about these topics. I believe that fully grasping the concepts of networking and cyber security even if it's just basic knowledge will make me a better engineer.
+    -   During this challenge, I became very interested in learning more about networking and security. I created an account on TryHackMe and I will use this resource to learn a bit more about these topics. I believe that fully grasping the concepts of networking and cyber security even if it's just basic knowledge will make me a better tech professional.
 
 -   Change how I learn technical topics
 
@@ -33,8 +33,6 @@ This challenge has inspired me to want to do the following:
 
     -   I am currently learning programming and this challenge has helped me alter how I study.
 
-    -   I decided I wanted to sit for AWS Solutions Architect certification this year and I'm going to use this approach to complete a Solutions Architect course I brought earlier this year.
-
-    -   Later this year, I want to complete the 30 Day Cloud Beginner Challenge again using Azure.
+    -   I want to complete the 30 Day Cloud Beginner Challenge again using Azure.
 
 All in all, this 30 Day Cloud Challenge was an amazing learning experience! This was a fun way for me to get more hands on with AWS. AWS does not seem as overwhelming anymore! I am so happy to have come across the Cozy Cloud Crew and learn from everyone in the community. I'm looking forward to continuous learning and growing with this community. I eventually want a job opportunity where I am able to put these skills to use.

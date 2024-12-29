@@ -137,4 +137,4 @@ What if I decide to run both tests again? Both tests will still pass. These test
 
 ![](images/fixture.png)
 
-Going through the first part of Python Crash Course has been an amazing experience! I became reacquainted with concepts I knew and learned a few that were brand new to me. From here, I'll begin to build projects. I am super excited about it and I can't wait to post them on this site.
+Going through the first part of Python Crash Course has been an amazing experience! I became reacquainted with concepts I knew and learned a few that were brand new to me. I am super excited relearning Python and I can't wait to post them on this site.
